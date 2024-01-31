@@ -6366,8 +6366,6 @@ LoadPlayerBackPic:
 	ld e, a
 	dec b
 	jr nz, .loop
-	ld de, vBackPic
-	call InterlaceMergeSpriteBuffers
 	ld a, $a
 	ld [MBC1SRamEnable], a
 	xor a
