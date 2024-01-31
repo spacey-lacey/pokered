@@ -9,13 +9,14 @@ UncompressMonSprite::
 	ld a, [hl]
 	ld [wSpriteInputPtr+1], a
 ; define (by index number) the bank that a pokemon's image is in
-; index = MEW:             bank $1
-; index = FOSSIL_KABUTOPS: bank $B
-;       index < $1F:       bank $9 ("Pics 1")
-; $1F ≤ index < $4A:       bank $A ("Pics 2")
-; $4A ≤ index < $74:       bank $B ("Pics 3")
-; $74 ≤ index < $99:       bank $C ("Pics 4")
-; $99 ≤ index:             bank $D ("Pics 5")
+;       index < $19:       bank $9 ("Pics 1")
+; $19 ≤ index < $32:       bank $A ("Pics 2")
+; $32 ≤ index < $4B:       bank $B ("Pics 3")
+; $4B ≤ index < $64:       bank $C ("Pics 4")
+; $64 ≤ index < $7D:       bank $D ("Pics 5")
+; $7D ≤ index < $96:       bank $E ("Pics 6")
+; $96 ≤ index < $AF:       bank $F ("Pics 7")
+; $99 ≤ index:             bank $10 ("Pics 8")
 	ld a, [wcf91]
 	ld b, a
 	cp MEW
@@ -26,22 +27,34 @@ UncompressMonSprite::
 	ld a, BANK(FossilKabutopsPic)
 	jr z, .GotBank
 	ld a, b
-	cp TANGELA + 1
+	cp GASTLY + 1
 	ld a, BANK("Pics 1")
 	jr c, .GotBank
 	ld a, b
-	cp MOLTRES + 1
+	cp GOLEM + 2 ; skip index 50
 	ld a, BANK("Pics 2")
 	jr c, .GotBank
 	ld a, b
-	cp BEEDRILL + 2
+	cp ZAPDOS + 2 ; +1 for fossil kabutops
 	ld a, BANK("Pics 3")
 	jr c, .GotBank
 	ld a, b
-	cp STARMIE + 1
+	cp JIGGLYPUFF + 1
 	ld a, BANK("Pics 4")
 	jr c, .GotBank
+	ld a, b
+	cp BUTTERFREE + 1
 	ld a, BANK("Pics 5")
+	jr c, .GotBank
+	ld a, b
+	cp PIDGEOTTO + 1
+	ld a, BANK("Pics 6")
+	jr c, .GotBank
+	ld a, b
+	cp MAGNEMITE + 2 ; skip 174, 175
+	ld a, BANK("Pics 7")
+	jr c, .GotBank
+	ld a, BANK("Pics 8")
 .GotBank
 	jp UncompressSpriteData
 
@@ -52,6 +65,7 @@ LoadMonFrontSprite::
 	call UncompressMonSprite
 	ld hl, wMonHSpriteDim
 	ld a, [hli]
+LoadUncompressedBackSprite::
 	ld c, a
 	pop de
 	; fall through

@@ -6332,9 +6332,9 @@ LoadPlayerBackPic:
 	ld de, OldManPicBack
 .next
 	ld a, BANK(RedPicBack)
-	ASSERT BANK(RedPicBack) == BANK(OldManPicBack)
+ 	ASSERT BANK(RedPicBack) == BANK(OldManPicBack)
 	call UncompressSpriteFromDE
-	predef ScaleSpriteByTwo
+    call LoadBackSpriteUnzoomed
 	ld hl, wShadowOAM
 	xor a
 	ldh [hOAMTile], a ; initial tile number
@@ -6915,7 +6915,7 @@ _LoadTrainerPic:
 	ld d, a ; de contains pointer to trainer pic
 	ld a, [wLinkState]
 	and a
-	ld a, BANK("Pics 6") ; this is where all the trainer pics are (not counting Red's)
+	ld a, BANK("Pics 9") ; this is where all the trainer pics are (not counting Red's)
 	jr z, .loadSprite
 	ld a, BANK(RedPicFront)
 .loadSprite
@@ -7037,12 +7037,17 @@ LoadMonBackPic:
 	call ClearScreenArea
 	ld hl,  wMonHBackSprite - wMonHeader
 	call UncompressMonSprite
-	predef ScaleSpriteByTwo
-	ld de, vBackPic
-	call InterlaceMergeSpriteBuffers ; combine the two buffers to a single 2bpp sprite
+    call LoadBackSpriteUnzoomed
 	ld hl, vSprites
 	ld de, vBackPic
 	ld c, (2 * SPRITEBUFFERSIZE) / 16 ; count of 16-byte chunks to be copied
 	ldh a, [hLoadedROMBank]
 	ld b, a
 	jp CopyVideoData
+
+
+LoadBackSpriteUnzoomed:
+    ld a, $66
+    ld de, vBackPic
+    push de
+    jp LoadUncompressedBackSprite
