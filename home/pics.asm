@@ -9,14 +9,14 @@ UncompressMonSprite::
 	ld a, [hl]
 	ld [wSpriteInputPtr+1], a
 ; define (by index number) the bank that a pokemon's image is in
-;       index < $19:       bank $9 ("Pics 1")
-; $19 ≤ index < $32:       bank $A ("Pics 2")
-; $32 ≤ index < $4B:       bank $B ("Pics 3")
-; $4B ≤ index < $64:       bank $C ("Pics 4")
-; $64 ≤ index < $7D:       bank $D ("Pics 5")
-; $7D ≤ index < $96:       bank $E ("Pics 6")
-; $96 ≤ index < $AF:       bank $F ("Pics 7")
-; $99 ≤ index:             bank $10 ("Pics 8")
+;       index < $17:       bank $9 ("Pics 1")
+; $17 ≤ index < $2E:       bank $A ("Pics 2")
+; $2E ≤ index < $48:       bank $B ("Pics 3")
+; $48 ≤ index < $60:       bank $C ("Pics 4")
+; $60 ≤ index < $76:       bank $D ("Pics 5")
+; $76 ≤ index < $94:       bank $E ("Pics 6")
+; $94 ≤ index < $A8:       bank $F ("Pics 7")
+; $A8 ≤ index:             bank $10 ("Pics 8")
 	ld a, [wcf91]
 	ld b, a
 	cp MEW
@@ -27,31 +27,31 @@ UncompressMonSprite::
 	ld a, BANK(FossilKabutopsPic)
 	jr z, .GotBank
 	ld a, b
-	cp GASTLY + 1
+	cp GYARADOS + 1
 	ld a, BANK("Pics 1")
 	jr c, .GotBank
 	ld a, b
-	cp GOLEM + 2 ; skip index 50
+	cp ARBOK + 1
 	ld a, BANK("Pics 2")
 	jr c, .GotBank
 	ld a, b
-	cp ZAPDOS + 2 ; +1 for fossil kabutops
+	cp POLIWAG + 2 ; +1 for fossil kabutops
 	ld a, BANK("Pics 3")
 	jr c, .GotBank
 	ld a, b
-	cp JIGGLYPUFF + 1
+	cp SEADRA + 3 ; 2 unused indices
 	ld a, BANK("Pics 4")
 	jr c, .GotBank
 	ld a, b
-	cp BUTTERFREE + 1
+	cp PRIMEAPE + 1
 	ld a, BANK("Pics 5")
 	jr c, .GotBank
 	ld a, b
-	cp PIDGEOTTO + 1
+	cp HAUNTER + 1
 	ld a, BANK("Pics 6")
 	jr c, .GotBank
 	ld a, b
-	cp MAGNEMITE + 2 ; skip 174, 175
+	cp NIDORINO + 1
 	ld a, BANK("Pics 7")
 	jr c, .GotBank
 	ld a, BANK("Pics 8")
