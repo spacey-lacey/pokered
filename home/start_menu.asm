@@ -25,9 +25,9 @@ RedisplayStartMenu::
 	jr nz, .loop
 ; if the player pressed tried to go past the top item, wrap around to the bottom
 	CheckEvent EVENT_GOT_POKEDEX
-	ld a, 6 ; there are 7 menu items with the pokedex, so the max index is 6
+	ld a, 7 ; there are 8 menu items with the pokedex and field menu, so the max index is 6
 	jr nz, .wrapMenuItemId
-	dec a ; there are only 6 menu items without the pokedex
+	dec a ; there are only 7 menu items without the pokedex
 .wrapMenuItemId
 	ld [wCurrentMenuItem], a
 	call EraseMenuCursor
@@ -38,9 +38,9 @@ RedisplayStartMenu::
 ; if the player pressed tried to go past the bottom item, wrap around to the top
 	CheckEvent EVENT_GOT_POKEDEX
 	ld a, [wCurrentMenuItem]
-	ld c, 7 ; there are 7 menu items with the pokedex
+	ld c, 8 ; there are 8 menu items with the pokedex
 	jr nz, .checkIfPastBottom
-	dec c ; there are only 6 menu items without the pokedex
+	dec c ; there are only 7 menu items without the pokedex
 .checkIfPastBottom
 	cp c
 	jr nz, .loop
@@ -68,12 +68,14 @@ RedisplayStartMenu::
 	jp z, StartMenu_Pokemon
 	cp 2
 	jp z, StartMenu_Item
-	cp 3
-	jp z, StartMenu_TrainerInfo
-	cp 4
-	jp z, StartMenu_SaveReset
-	cp 5
-	jp z, StartMenu_Option
+    cp 3
+    jp z, StartMenu_Field
+    cp 4
+    jp z, StartMenu_TrainerInfo
+    cp 5
+    jp z, StartMenu_SaveReset
+    cp 6
+    jp z, StartMenu_Option
 
 ; EXIT falls through to here
 CloseStartMenu::

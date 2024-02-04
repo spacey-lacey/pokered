@@ -446,6 +446,25 @@ CannotGetOffHereText:
 	text_far _CannotGetOffHereText
 	text_end
 
+
+FieldMenuLoop:
+	call LoadScreenTilesFromBuffer2DisableBGTransfer ; restore saved screen
+	call RunDefaultPaletteCommand
+
+StartMenu_Field::
+	ld hl, NoFieldMovesText
+	call PrintText
+.exitMenu
+	call LoadScreenTilesFromBuffer2 ; restore saved screen
+	call LoadTextBoxTilePatterns
+	call UpdateSprites
+	jp RedisplayStartMenu
+
+NoFieldMovesText:
+    text_far _NoFieldMovesText
+    text_end
+
+
 INCLUDE "data/items/use_party.asm"
 
 INCLUDE "data/items/use_overworld.asm"

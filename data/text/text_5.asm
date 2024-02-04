@@ -72,6 +72,11 @@ _CannotGetOffHereText::
 	line "here."
 	prompt
 
+_NoFieldMovesText::
+    text "You don't have any"
+    line "field moves!"
+    prompt
+
 _GotMonText::
 	text "<PLAYER> got"
 	line "@"
