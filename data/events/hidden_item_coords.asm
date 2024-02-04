@@ -58,4 +58,5 @@ HiddenItemCoords:
 	hidden_item VERMILION_CITY,                14,  11
 	hidden_item CERULEAN_CITY,                 15,   8
 	hidden_item ROUTE_4,                       40,   3
+    hidden_item REDS_HOUSE_2F,                  6,   7 ; FIXME
 	db -1 ; end
