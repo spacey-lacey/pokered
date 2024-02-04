@@ -24,3 +24,6 @@ GivePokemon::
 	xor a ; PLAYER_PARTY_DATA
 	ld [wMonDataLocation], a
 	farjp _GivePokemon
+
+GiveFieldMove::
+; Give the player a field move
