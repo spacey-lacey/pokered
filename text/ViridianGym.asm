@@ -6,7 +6,7 @@ _ViridianGymGiovanniPreBattleText::
 	line "resurrect TEAM"
 	cont "ROCKET here!"
 
-	para "But, you have"
+	para "But you have"
 	line "caught me again!"
 	cont "So be it! This"
 	cont "time, I'm not"

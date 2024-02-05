@@ -50,7 +50,7 @@ _Route10SuperNerd2AfterBattleText::
 _Route10CooltrainerF1BattleText::
 	text "I've been to a"
 	line "#MON GYM a few"
-	cont "times. But, I"
+	cont "times. But I"
 	cont "lost each time."
 	done
 

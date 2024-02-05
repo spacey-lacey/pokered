@@ -29,7 +29,7 @@ _RocketHideout3EndBattleText3::
 
 _RocketHide3AfterBattleText3::
 	text "Go ahead and go!"
-	line "But, you need the"
+	line "But you need the"
 	cont "LIFT KEY to run"
 	cont "the elevator!"
 	done

@@ -69,7 +69,7 @@ _Museum1FScientist2TakeThisToAPokemonLabText::
 	cont "be resurrected"
 	cont "from it!"
 
-	para "But, my colleagues"
+	para "But my colleagues"
 	line "just ignore me!"
 
 	para "So I have a favor"

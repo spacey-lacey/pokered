@@ -202,7 +202,7 @@ _NoEffectText::
 	prompt
 
 _ButItFailedText::
-	text "But, it failed! "
+	text "But it failed! "
 	prompt
 
 _DidntAffectText::

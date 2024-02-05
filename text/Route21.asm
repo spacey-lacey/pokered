@@ -85,7 +85,7 @@ _Route21Swimmer4EndBattleText::
 
 _Route21Swimmer4AfterBattleText::
 	text "I'm beat!"
-	line "But, I still have"
+	line "But I still have"
 	cont "the bike race and"
 	cont "marathon left!"
 	done

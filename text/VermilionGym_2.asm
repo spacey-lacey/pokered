@@ -5,7 +5,7 @@ _VermilionGymLTSurgePostBattleAdviceText::
 	para "Electricity is"
 	line "sure powerful!"
 
-	para "But, it's useless"
+	para "But it's useless"
 	line "against ground-"
 	cont "type #MON!"
 	done

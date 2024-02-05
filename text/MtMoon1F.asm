@@ -108,7 +108,7 @@ _MtMoon1FYoungster3EndBattleText::
 
 _MtMoon1FYoungster3AfterBattleText::
 	text "ZUBAT is tough!"
-	line "But, it can be"
+	line "But it can be"
 	cont "useful if you"
 	cont "catch one."
 	done

@@ -102,7 +102,7 @@ _CeladonMartRoofSuperNerdText::
 	line "trainer, believe"
 	cont "it or not."
 
-	para "But, she's so"
+	para "But she's so"
 	line "immature, she"
 	cont "drives me nuts!"
 	done

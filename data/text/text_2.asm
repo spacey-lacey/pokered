@@ -224,7 +224,7 @@ _VermilionPokecenterGuyText::
 	cont "#MON will be"
 	cont "more powerful..."
 
-	para "But, all #MON"
+	para "But all #MON"
 	line "will have weak"
 	cont "points against"
 	cont "specific types."
@@ -756,7 +756,7 @@ _FoundHiddenItemText::
 	text_end
 
 _HiddenItemBagFullText::
-	text "But, <PLAYER> has"
+	text "But <PLAYER> has"
 	line "no more room for"
 	cont "other items!"
 	done

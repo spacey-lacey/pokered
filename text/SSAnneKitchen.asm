@@ -64,6 +64,6 @@ SSAnneKitchenCook7EelsAuBarbecueText::
 SSAnneKitchenCook7PrimeBeefSteakText::
 	text "Prime Beef Steak!"
 
-	para "But, have I enough"
+	para "But have I enough"
 	line "fillets du beef?"
 	done

@@ -111,7 +111,7 @@ _ChampionsRoomOakDisappointedWithRivalText::
 	line "heard you beat"
 	cont "the ELITE FOUR!"
 
-	para "But, when I got"
+	para "But when I got"
 	line "here, you had"
 	cont "already lost!"
 

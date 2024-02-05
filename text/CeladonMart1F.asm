@@ -12,7 +12,7 @@ _CeladonMart1FDirectorySignText::
 	text "1F: SERVICE"
 	line "    COUNTER"
 
-	para "2F: TRAINER'S"
+	para "2F: TRAINERS'"
 	line "    MARKET"
 
 	para "3F: TV GAME SHOP"

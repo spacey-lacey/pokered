@@ -187,7 +187,7 @@ _CinnabarGymSuperNerd7EndBattleText::
 
 _CinnabarGymSuperNerd7AfterBattleText::
 	text "Water beats fire!"
-	line "But, fire melts"
+	line "But fire melts"
 	cont "ice #MON!"
 	done
 

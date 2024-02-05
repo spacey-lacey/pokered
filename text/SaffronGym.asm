@@ -19,7 +19,7 @@ _SaffronGymSabrinaText::
 _SaffronGymSabrinaReceivedMarshBadgeText::
 	text "I'm"
 	line "shocked!"
-	cont "But, a loss is a"
+	cont "But a loss is a"
 	cont "loss."
 
 	para "I admit I didn't"

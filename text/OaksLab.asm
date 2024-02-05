@@ -325,7 +325,7 @@ _OaksLabOakThatWasMyDreamText::
 
 	para "That was my dream!"
 
-	para "But, I'm too old!"
+	para "But I'm too old!"
 	line "I can't do it!"
 
 	para "So, I want you two"

@@ -52,10 +52,10 @@ _SSAnne2FRivalCutMasterText::
 	line "there was a CUT"
 	cont "master on board."
 
-	para "But, he was just a"
-	line "seasick, old man!"
+	para "But he was just a"
+	line "seasick old man!"
 
-	para "But, CUT itself is"
+	para "But CUT itself is"
 	line "really useful!"
 
 	para "You should go see"

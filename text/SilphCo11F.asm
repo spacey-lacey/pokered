@@ -85,7 +85,7 @@ _SilphCo11FGiovanniYouRuinedOurPlansText::
 	line "You ruined our"
 	cont "plans for SILPH!"
 
-	para "But, TEAM ROCKET"
+	para "But TEAM ROCKET"
 	line "will never fall!"
 
 	para "<PLAYER>! Never"

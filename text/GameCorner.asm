@@ -106,7 +106,7 @@ _GameCornerGymGuideTheyOfferRarePokemonText::
 	cont "be exchanged for"
 	cont "your coins."
 
-	para "But, I just can't"
+	para "But I just can't"
 	line "seem to win!"
 	done
 
