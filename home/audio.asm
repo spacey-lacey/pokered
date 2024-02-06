@@ -24,8 +24,8 @@ PlayDefaultMusicCommon::
 	jr z, .walking
 	cp $2
 	jr z, .surfing
-	ld a, MUSIC_BIKE_RIDING
-	jr .next
+;ld a, MUSIC_BIKE_RIDING
+    jp .walking ; no more biking music!
 
 .surfing
 	ld a, MUSIC_SURFING
@@ -34,7 +34,7 @@ PlayDefaultMusicCommon::
 	ld b, a
 	ld a, d
 	and a ; should current music be faded out first?
-	ld a, BANK(Music_BikeRiding)
+    ld a, BANK(Music_BikeRiding)
 	jr nz, .next2
 
 ; Only change the audio ROM bank if the current music isn't going to be faded

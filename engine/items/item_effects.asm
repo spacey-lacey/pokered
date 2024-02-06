@@ -649,7 +649,7 @@ ItemUseBicycle:
 	call ItemUseReloadOverworldData
 	xor a
 	ld [wWalkBikeSurfState], a ; change player state to walking
-	call PlayDefaultMusic ; play walking music
+;call PlayDefaultMusic ; play walking music
 	ld hl, GotOffBicycleText
 	jr .printText
 .tryToGetOnBike
@@ -661,7 +661,7 @@ ItemUseBicycle:
 	inc a
 	ld [wWalkBikeSurfState], a ; change player state to bicycling
 	ld hl, GotOnBicycleText
-	call PlayDefaultMusic ; play bike riding music
+;call PlayDefaultMusic ; play bike riding music
 .printText
 	jp PrintText
 
