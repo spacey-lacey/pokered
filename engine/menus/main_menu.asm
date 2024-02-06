@@ -127,7 +127,6 @@ MainMenu:
 InitOptions:
 	ld a, TEXT_DELAY_FAST
 	ld [wLetterPrintingDelayFlags], a
-	ld a, TEXT_DELAY_MEDIUM
 	ld [wOptions], a
 	ret
 
