@@ -19,7 +19,7 @@ _Route3Youngster1EndBattleText::
 	prompt
 
 _Route3Youngster1AfterBattleText::
-	text "There are other"
+	text "There are more"
 	line "kinds of #MON"
 	cont "than those found"
 	cont "in the forest!"
@@ -66,7 +66,7 @@ _Route3Youngster3BattleText::
 
 _Route3Youngster3EndBattleText::
 	text "If I"
-	line "had new #MON I"
+	line "had new #MON, I"
 	cont "would've won!"
 	prompt
 

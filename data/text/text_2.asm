@@ -158,7 +158,7 @@ _GymStatueText2::
 _ViridianCityPokecenterGuyText::
 	text "#MON CENTERs"
 	line "heal your tired,"
-	cont "hurt or fainted"
+	cont "hurt, or fainted"
 	cont "#MON!"
 	done
 
@@ -178,7 +178,7 @@ _CeruleanPokecenterGuyText::
 	line "#MON!"
 
 	para "He collects rare"
-	line "ones too!"
+	line "ones, too!"
 	done
 
 _LavenderPokecenterGuyText::
@@ -338,38 +338,37 @@ _CinnabarGymQuizIntroText::
 	prompt
 
 _CinnabarQuizQuestionsText1::
-	text "CATERPIE evolves"
-	line "into BUTTERFREE?"
+	text "Does METAPOD "
+    line "evolve into"
+	cont "BUTTERFREE?"
 	done
 
 _CinnabarQuizQuestionsText2::
-	text "There are 9"
+	text "Are there 9"
 	line "certified #MON"
 	cont "LEAGUE BADGEs?"
 	done
 
 _CinnabarQuizQuestionsText3::
-	text "POLIWAG evolves 3"
-	line "times?"
+	text "Does POLIWAG"
+	line "evolve 3 times?"
 	done
 
 _CinnabarQuizQuestionsText4::
-	text "Are thunder moves"
+	text "Are ELECTRIC moves"
 	line "effective against"
-	cont "ground element-"
-	cont "type #MON?"
+	cont "GROUND #MON?"
 	done
 
 _CinnabarQuizQuestionsText5::
-	text "#MON of the"
+	text "Are #MON of the"
 	line "same kind and"
-	cont "level are not"
-	cont "identical?"
+	cont "level identical?"
 	done
 
 _CinnabarQuizQuestionsText6::
-	text "TM28 contains"
-	line "TOMBSTONER?"
+	text "Does TM28 contain"
+	line "TOMBSTONE?"
 	done
 
 _CinnabarGymQuizCorrectText::
@@ -1222,7 +1221,7 @@ _BoostedText::
 
 _ExpPointsText::
 	text_decimal wExpAmountGained, 2, 4
-	text " EXP. Points!"
+	text " EXP!"
 	prompt
 
 _GrewLevelText::

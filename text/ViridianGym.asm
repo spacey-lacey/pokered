@@ -209,7 +209,7 @@ _ViridianGymCooltrainerM3EndBattleText::
 	prompt
 
 _ViridianGymCooltrainerM3AfterBattleText::
-	text "You can go onto"
+	text "You can go on to the"
 	line "#MON LEAGUE"
 	cont "only by defeating"
 	cont "our GYM LEADER!"

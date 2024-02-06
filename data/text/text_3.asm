@@ -15,8 +15,8 @@ _GameSavedText::
 
 _OlderFileWillBeErasedText::
 	text "The older file"
-	line "will be erased to"
-	cont "save. Okay?"
+	line "will be erased."
+	cont "Is that okay?"
 	done
 
 _WhenYouChangeBoxText::

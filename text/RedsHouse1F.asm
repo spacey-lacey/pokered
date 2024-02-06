@@ -1,7 +1,7 @@
 _RedsHouse1FMomWakeUpText::
 	text "MOM: Right."
 	line "All boys leave"
-	cont "home some day."
+	cont "home someday."
 	cont "It said so on TV."
 
 	para "PROF.OAK, next"
@@ -16,7 +16,7 @@ _RedsHouse1FMomYouShouldRestText::
 	prompt
 
 _RedsHouse1FMomLookingGreatText::
-	text "MOM: Oh good!"
+	text "MOM: Oh, good!"
 	line "You and your"
 	cont "#MON are"
 	cont "looking great!"

@@ -23,11 +23,11 @@ _ItemUseBallText03::
 
 _ItemUseBallText04::
 	text "Shoot! It was so"
-	line "close too!"
+	line "close, too!"
 	prompt
 
 _ItemUseBallText05::
-	text "All right!"
+	text "Alright!"
 	line "@"
 	text_ram wEnemyMonNick
 	text " was"
@@ -95,7 +95,7 @@ _PlayedFluteNoEffectText::
 	text "Played the #"
 	line "FLUTE."
 
-	para "Now, that's a"
+	para "Now that's a"
 	line "catchy tune!"
 	prompt
 

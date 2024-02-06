@@ -289,7 +289,7 @@ _OaksLabRivalWhatDidYouCallMeForText::
 	done
 
 _OaksLabOakIHaveARequestText::
-	text "OAK: Oh right! I"
+	text "OAK: Oh, right! I"
 	line "have a request"
 	cont "of you two."
 	done
@@ -328,7 +328,7 @@ _OaksLabOakThatWasMyDreamText::
 	para "But I'm too old!"
 	line "I can't do it!"
 
-	para "So, I want you two"
+	para "So I want you two"
 	line "to fulfill my"
 	cont "dream for me!"
 

@@ -12,5 +12,5 @@ _ViridianPokecenterCooltrainerMText::
 	cont "town ahead."
 
 	para "They don't charge"
-	line "any money either!"
+	line "any money, either!"
 	done

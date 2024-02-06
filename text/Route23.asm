@@ -11,7 +11,7 @@ _Route23YouDontHaveTheBadgeYetText::
 	text " yet!"
 
 	para "You have to have"
-	line "it to get to"
+	line "it to get to the"
 	cont "#MON LEAGUE!@"
 	text_end
 

@@ -1,5 +1,5 @@
 _BluesHouseDaisyRivalAtLabText::
-	text "Hi <PLAYER>!"
+	text "Hi, <PLAYER>!"
 	line "<RIVAL> is out at"
 	cont "Grandpa's lab."
 	done

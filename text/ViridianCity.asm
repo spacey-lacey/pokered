@@ -5,7 +5,7 @@ _ViridianCityYoungster1Text::
 
 	para "It's great that"
 	line "you can carry and"
-	cont "use #MON any"
+	cont "use #MON any-"
 	cont "time, anywhere!"
 	done
 
@@ -30,7 +30,7 @@ _ViridianCityYoungster2YouWantToKnowAboutText::
 	done
 
 ViridianCityYoungster2OkThenText::
-	text "Oh, OK then!"
+	text "Oh, okay then!"
 	done
 
 ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
@@ -43,7 +43,7 @@ ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
 	done
 
 _ViridianCityGirlHasntHadHisCoffeeYetText::
-	text "Oh Grandpa! Don't"
+	text "Oh, Grandpa! Don't"
 	line "be so mean!"
 	cont "He hasn't had his"
 	cont "coffee yet."
@@ -103,7 +103,7 @@ _ViridianCityOldManHadMyCoffeeNowText::
 	line "coffee now and I"
 	cont "feel great!"
 
-	para "Sure you can go"
+	para "Sure, you can go"
 	line "through!"
 
 	para "Are you in a"
@@ -124,12 +124,12 @@ _ViridianCityOldManKnowHowToCatchPokemonText::
 	cont "#MON?"
 
 	para "I'll show you"
-	line "how to then."
+	line "how to, then."
 	done
 
 _ViridianCityOldManTimeIsMoneyText::
 	text "Time is money<...>"
-	line "Go along then."
+	line "Go along, then."
 	done
 
 _ViridianCityOldManYouNeedToWeakenTheTargetText::

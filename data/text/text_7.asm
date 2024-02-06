@@ -96,7 +96,7 @@ _WrongMon1Text::
 	done
 
 _Thanks1Text::
-	text "Hey thanks!"
+	text "Hey, thanks!"
 	done
 
 _AfterTrade1Text::

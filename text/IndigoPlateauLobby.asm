@@ -2,10 +2,10 @@ _IndigoPlateauLobbyGymGuideText::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "At #MON LEAGUE,"
-	line "you have to face"
-	cont "the ELITE FOUR in"
-	cont "succession."
+	para "At the #MON"
+	line "LEAGUE, you have"
+    cont "to face the ELITE"
+	cont "FOUR in succession."
 
 	para "If you lose, you"
 	line "have to start all"

@@ -1,5 +1,5 @@
 _LoreleisRoomLoreleiBeforeBattleText::
-	text "Welcome to"
+	text "Welcome to the"
 	line "#MON LEAGUE!"
 
 	para "I am LORELEI of"

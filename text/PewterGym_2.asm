@@ -42,7 +42,7 @@ _TM34ExplanationText::
 
 	para "Your #MON will"
 	line "absorb damage in"
-	cont "battle then pay"
+	cont "battle, then pay"
 	cont "it back double!"
 	done
 
@@ -76,14 +76,14 @@ _PewterGymBrockBoulderBadgeInfoText::
 
 	para "The technique"
 	line "FLASH can now be"
-	cont "used any time!"
+	cont "used at any time!"
 	prompt
 
 _PewterGymCooltrainerMBattleText::
 	text "Stop right there,"
 	line "kid!"
 
-	para "You're still light"
+	para "You're still light-"
 	line "years from facing"
 	cont "BROCK!"
 	done
@@ -91,7 +91,7 @@ _PewterGymCooltrainerMBattleText::
 _PewterGymCooltrainerMEndBattleText::
 	text "Darn!"
 
-	para "Light years isn't"
+	para "Lightyears isn't"
 	line "time! It measures"
 	cont "distance!"
 	prompt
