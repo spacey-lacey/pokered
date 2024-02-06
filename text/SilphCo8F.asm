@@ -1,6 +1,6 @@
 __SilphCo8FSilphWorkerMThanksForSavingUsText::
 	text "I wonder if SILPH"
-	line "is finished..."
+	line "is finished<...>"
 	done
 
 _SilphCo8FSilphWorkerMThanksForSavingUsText::

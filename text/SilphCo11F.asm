@@ -69,7 +69,7 @@ _SilphCo11FGiovanniText::
 
 	para "Keep your nose"
 	line "out of grown-up"
-	cont "matters..."
+	cont "matters<...>"
 
 	para "Or, experience a"
 	line "world of pain!"
@@ -103,7 +103,7 @@ _SilphCo11FRocket1BattleText::
 	done
 
 _SilphCo11FRocket1EndBattleText::
-	text "Don't..."
+	text "Don't<...>"
 	line "Please!"
 	prompt
 

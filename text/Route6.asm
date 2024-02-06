@@ -10,8 +10,8 @@ _Route6CooltrainerM1EndBattleText::
 	prompt
 
 _Route6CooltrainerAfterBattleText::
-	text "Whisper..."
-	line "whisper..."
+	text "Whisper<...>"
+	line "whisper<...>"
 	done
 
 _Route6CooltrainerF1BattleText::

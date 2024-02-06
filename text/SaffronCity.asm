@@ -83,8 +83,8 @@ _SaffronCityRocket8Text::
 	done
 
 _SaffronCityRocket9Text::
-	text "..."
-	line "Snore..."
+	text "<...>"
+	line "Snore<...>"
 
 	para "Hah! He's taking"
 	line "a snooze!"
@@ -148,5 +148,5 @@ _SaffronCitySilphCoLatestProductSignText::
 	line "product!"
 
 	para "Release to be"
-	line "determined..."
+	line "determined<...>"
 	done

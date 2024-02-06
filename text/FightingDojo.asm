@@ -126,5 +126,5 @@ _FightingDojoHitmonchanPokeBallText::
 
 _FightingDojoBetterNotGetGreedyText::
 	text "Better not get"
-	line "greedy..."
+	line "greedy<...>"
 	done

@@ -1,5 +1,5 @@
 _MrPsychicsHouseMrPsychicYouWantedThisText::
-	text "...Wait! Don't"
+	text "<...>Wait! Don't"
 	line "say a word!"
 
 	para "You wanted this!"

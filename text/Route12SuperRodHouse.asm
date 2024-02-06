@@ -35,8 +35,8 @@ _Route12SuperRodHouseFishingGuruFishingWayOfLifeText::
 	done
 
 _Route12SuperRodHouseFishingGuruThatsDisappointingText::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "Oh<...> That's so"
+	line "disappointing<...>"
 	done
 
 _Route12SuperRodHouseFishingGuruTryFishingText::

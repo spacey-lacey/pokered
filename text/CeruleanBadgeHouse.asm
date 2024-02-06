@@ -11,7 +11,7 @@ _CeruleanBadgeHouseMiddleAgedManText::
 	prompt
 
 _CeruleanBadgeHouseMiddleAgedManWhichBadgeText::
-	text "Now then..."
+	text "Now then<...>"
 
 	para "Which of the 8"
 	line "BADGEs should I"

@@ -42,7 +42,7 @@ _Route25CooltrainerMBattleText::
 
 _Route25CooltrainerMEndBattleText::
 	text "Aww,"
-	line "darn..."
+	line "darn<...>"
 	prompt
 
 _Route25CooltrainerMAfterBattleText::

@@ -131,7 +131,7 @@ _Route19Swimmer7EndBattleText::
 
 _Route19Swimmer7AfterBattleText::
 	text "I got a cramp!"
-	line "Glub, glub..."
+	line "Glub, glub<...>"
 	done
 
 _Route19Swimmer8BattleText::
@@ -141,7 +141,7 @@ _Route19Swimmer8BattleText::
 
 _Route19Swimmer8EndBattleText::
 	text "I'm"
-	line "exhausted..."
+	line "exhausted<...>"
 	prompt
 
 _Route19Swimmer8AfterBattleText::

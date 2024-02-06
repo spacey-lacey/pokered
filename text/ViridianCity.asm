@@ -89,8 +89,8 @@ _ViridianCityFisherReceivedTM42Text::
 
 _ViridianCityFisherTM42ExplanationText::
 	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	line "DREAM EATER<...>"
+	cont "<...>Snore<...>"
 	done
 
 _ViridianCityFisherTM42NoRoomText::
@@ -128,7 +128,7 @@ _ViridianCityOldManKnowHowToCatchPokemonText::
 	done
 
 _ViridianCityOldManTimeIsMoneyText::
-	text "Time is money..."
+	text "Time is money<...>"
 	line "Go along then."
 	done
 
@@ -177,5 +177,5 @@ _ViridianCityGymSignText::
 
 _ViridianCityGymLockedText::
 	text "The GYM's doors"
-	line "are locked..."
+	line "are locked<...>"
 	done

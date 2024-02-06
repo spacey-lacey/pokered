@@ -103,7 +103,7 @@ _Route12Fisher4BattleText::
 
 _Route12Fisher4EndBattleText::
 	text "It's"
-	line "not easy..."
+	line "not easy<...>"
 	prompt
 
 _Route12Fisher4AfterBattleText::

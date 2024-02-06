@@ -154,7 +154,7 @@ _Route13CooltrainerM3EndBattleText::
 _Route13CooltrainerM3AfterBattleText::
 	text "I wish I could"
 	line "fly like PIDGEY"
-	cont "and PIDGEOTTO..."
+	cont "and PIDGEOTTO<...>"
 	done
 
 _Route13TrainerTips1Text::

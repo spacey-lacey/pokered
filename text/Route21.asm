@@ -79,8 +79,8 @@ _Route21Swimmer4BattleText::
 	done
 
 _Route21Swimmer4EndBattleText::
-	text "Pant..."
-	line "pant...pant..."
+	text "Pant<...>"
+	line "pant<...>pant<...>"
 	prompt
 
 _Route21Swimmer4AfterBattleText::

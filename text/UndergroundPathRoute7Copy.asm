@@ -1,7 +1,7 @@
 _UndergroundPathRoute7CopyUnusedGirlText::
 	text "I want to shop at"
 	line "the dept. store"
-	cont "in CELADON but..."
+	cont "in CELADON, but<...>"
 
 	para "There are so many"
 	line "rough looking"

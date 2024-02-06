@@ -84,7 +84,7 @@ _CopycatsHouse2FSNESText::
 	done
 
 _CopycatsHouse2FPCMySecretsText::
-	text "..."
+	text "<...>"
 
 	para "My Secrets!"
 

@@ -76,7 +76,7 @@ _ViridianGymGiovanniTM27ExplanationText::
 
 	para "I made it when I"
 	line "ran the GYM here,"
-	cont "too long ago..."
+	cont "too long ago<...>"
 	done
 
 _ViridianGymGiovanniTM27NoRoomText::
@@ -146,7 +146,7 @@ _ViridianGymHiker2EndBattleText::
 _ViridianGymHiker2AfterBattleText::
 	text "If my #MON"
 	line "were as good at"
-	cont "Karate as I..."
+	cont "Karate as I<...>"
 	done
 
 _ViridianGymCooltrainerM2BattleText::

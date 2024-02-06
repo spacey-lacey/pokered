@@ -1,6 +1,6 @@
 _PokemonTower3FChanneler1BattleText::
-	text "Urrg...Awaa..."
-	line "Huhu...graa.."
+	text "Urrg<...>Awaa<...>"
+	line "Huhu<...>graa.."
 	done
 
 _PokemonTower3FChanneler1EndBattleText::
@@ -15,7 +15,7 @@ _PokemonTower3FChanneler1AfterBattleText::
 	done
 
 _PokemonTower3FChanneler2BattleText::
-	text "Kekeke...."
+	text "Kekeke<...>."
 	line "Kwaaah!"
 	done
 

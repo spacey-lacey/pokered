@@ -4,7 +4,7 @@ SilphCo2FSilphWorkerFPleaseTakeThisText::
 
 	para "Oh, you're not"
 	line "with TEAM ROCKET."
-	cont "I thought..."
+	cont "I thought<...>"
 	cont "I'm sorry. Here,"
 	cont "please take this!"
 	prompt

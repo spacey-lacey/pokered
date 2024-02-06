@@ -35,8 +35,8 @@ _VermilionOldRodHouseFishingGuruFishingIsAWayOfLifeText::
 	done
 
 _VermilionOldRodHouseFishingGuruThatsSoDisappointingText::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "Oh<...> That's so"
+	line "disappointing<...>"
 	done
 
 _VermilionOldRodHouseFishingGuruHowAreTheFishBitingText::

@@ -3,7 +3,7 @@ _CeladonGymErikaPreBattleText::
 	line "weather isn't it?"
 	cont "It's so pleasant."
 
-	para "...Oh dear..."
+	para "<...>Oh dear<...>"
 	line "I must have dozed"
 	cont "off. Welcome."
 

@@ -5,7 +5,7 @@ _LavenderTownLittleGirlDoYouBelieveInGhostsText::
 
 _LavenderTownLittleGirlSoThereAreBelieversText::
 	text "Really? So there"
-	line "are believers..."
+	line "are believers<...>"
 	done
 
 _LavenderTownLittleGirlHaHaGuessNotText::

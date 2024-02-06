@@ -23,7 +23,7 @@ _RocketHideoutB4FGiovanniHopeWeMeetAgainText::
 	line "aside this time!"
 
 	para "I hope we meet"
-	line "again..."
+	line "again<...>"
 	done
 
 _RocketHideoutB4FGiovanniBattleText::

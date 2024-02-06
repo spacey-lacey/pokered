@@ -15,8 +15,8 @@ _SilphCo5FRocket2BattleText::
 	done
 
 _SilphCo5FRocket2EndBattleText::
-	text "Cough..."
-	line "Cough..."
+	text "Cough<...>"
+	line "Cough<...>"
 	prompt
 
 _SilphCo5FRocket2AfterBattleText::

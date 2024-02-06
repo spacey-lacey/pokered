@@ -13,7 +13,7 @@ _SSAnne1FRoomsGentleman1BattleText::
 
 _SSAnne1FRoomsGentleman1EndBattleText::
 	text "My, my"
-	line "friends..."
+	line "friends<...>"
 	prompt
 
 _SSAnne1FRoomsGentleman1AfterBattleText::

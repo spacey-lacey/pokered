@@ -1,5 +1,5 @@
 _RocketHideoutB1FRocket5EndBattleText::
-	text "Why...?@"
+	text "Why<...>?@"
 	text_end
 
 _RocketHideoutB1FRocket1BattleText::
