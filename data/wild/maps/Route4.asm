@@ -1,27 +1,25 @@
 Route4WildMons:
 	def_grass_wildmons 20 ; encounter rate
-	db 10, RATTATA
-	db 10, SPEAROW
-	db  8, RATTATA
-IF DEF(_RED)
-	db  6, EKANS
-	db  8, SPEAROW
-	db 10, EKANS
-	db 12, RATTATA
-	db 12, SPEAROW
-	db  8, EKANS
-	db 12, EKANS
-ENDC
-IF DEF(_BLUE)
-	db  6, SANDSHREW
-	db  8, SPEAROW
-	db 10, SANDSHREW
-	db 12, RATTATA
-	db 12, SPEAROW
-	db  8, SANDSHREW
-	db 12, SANDSHREW
-ENDC
+	db 10, RATTATA ; 20%
+	db 10, SPEAROW ; 20%
+	db  8, SPEAROW ; 15%
+	db  6, EKANS ; 10%
+	db  8, RATTATA ; 10 %
+	db 10, SANDSHREW ; 10%
+	db 12, MANKEY ; 5%
+	db 12, MANKEY ; 5%  
+	db  8, PSYDUCK ; 4%
+	db 12, CHARMANDER ; 1%
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
 	end_water_wildmons
+
+; using lgpe encounters
+; 30% rattata
+; 35% spearow
+; 10% ekans
+; 10% mankey
+; 10% sandshrew
+; 5% psyduck -> 4%
+; rare spawn charmander
