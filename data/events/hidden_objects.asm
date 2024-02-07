@@ -206,7 +206,6 @@ ColosseumHiddenObjects:
 RedsHouse2FHiddenObjects:
 	hidden_object  0,  1, SPRITE_FACING_UP, OpenRedsPC
     hidden_object  3,  5, ANY_FACING, PrintRedSNESText
-    hidden_object  6,  7, BICYCLE, HiddenItems ; lol FIXME
 	db -1 ; end
 
 BluesHouseHiddenObjects:

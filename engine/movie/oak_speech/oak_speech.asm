@@ -56,6 +56,24 @@ OakSpeech:
 	ld a, 1
 	ld [wItemQuantity], a
 	call AddItemToInventory
+
+; add things to PC for debug purposes
+	ld a, BICYCLE
+	ld [wcf91], a
+	ld a, 1
+	ld [wItemQuantity], a
+	call AddItemToInventory
+	ld a, MASTER_BALL
+	ld [wcf91], a
+	ld a, 99
+	ld [wItemQuantity], a
+	call AddItemToInventory
+	ld a, FULL_RESTORE
+	ld [wcf91], a
+	ld a, 99
+	ld [wItemQuantity], a
+	call AddItemToInventory
+
 	ld a, [wDefaultMap]
 	ld [wDestinationMap], a
 	call PrepareForSpecialWarp
