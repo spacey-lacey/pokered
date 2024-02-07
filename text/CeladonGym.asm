@@ -1,9 +1,9 @@
 _CeladonGymErikaPreBattleText::
 	text "Hello. Lovely"
-	line "weather isn't it?"
+	line "weather, isn't it?"
 	cont "It's so pleasant."
 
-	para "<...>Oh dear<...>"
+	para "<l...>Oh dear<...>"
 	line "I must have dozed"
 	cont "off. Welcome."
 
@@ -14,7 +14,7 @@ _CeladonGymErikaPreBattleText::
 	para "I teach the art of"
 	line "flower arranging."
 	cont "My #MON are of"
-	cont "the grass-type."
+	cont "the GRASS type."
 
 	para "Oh, I'm sorry, I"
 	line "had no idea that"
@@ -114,13 +114,13 @@ _CeladonGymEndBattleText3::
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "Grass-type #MON"
+	text "GRASS type #MON"
 	line "are tough against"
-	cont "the water-type!"
+	cont "the WATER type!"
 
 	para "They also have an"
-	line "edge on rock and"
-	cont "ground #MON!"
+	line "edge on ROCK and"
+	cont "GROUND #MON!"
 	done
 
 _CeladonGymBattleText4::
@@ -140,7 +140,7 @@ _CeladonGymAfterBattleText4::
 	done
 
 _CeladonGymBattleText5::
-	text "Look at my grass"
+	text "Look at my GRASS"
 	line "#MON!"
 
 	para "They're so easy"
@@ -152,7 +152,7 @@ _CeladonGymEndBattleText5::
 	prompt
 
 _CeladonGymAfterBattleText5::
-	text "We only use grass-"
+	text "We only use GRASS"
 	line "type #MON at"
 	cont "our GYM!"
 

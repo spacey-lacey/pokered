@@ -13,7 +13,7 @@ _CeruleanGymMistyPreBattleText::
 
 	para "My policy is an"
 	line "all-out offensive"
-	cont "with water-type"
+	cont "with WATER-type"
 	cont "#MON!"
 	done
 
@@ -21,8 +21,8 @@ _CeruleanGymMistyTM11ExplanationText::
 	text "TM11 teaches"
 	line "BUBBLEBEAM!"
 
-	para "Use it on an"
-	line "aquatic #MON!"
+	para "Use it on a"
+	line "WATER #MON!"
 	done
 
 _CeruleanGymMistyCascadeBadgeInfoText::
@@ -33,9 +33,9 @@ _CeruleanGymMistyCascadeBadgeInfoText::
 	para "That includes"
 	line "even outsiders!"
 
-	para "There's more, you"
+	para "There's more: you"
 	line "can now use CUT"
-	cont "any time!"
+	cont "anytime!"
 
 	para "You can CUT down"
 	line "small bushes to"
@@ -59,7 +59,7 @@ _CeruleanGymMistyReceivedCascadeBadgeText::
 	text "Wow!"
 	line "You're too much!"
 
-	para "All right!"
+	para "Alright!"
 
 	para "You can have the"
 	line "CASCADEBADGE to"
@@ -113,11 +113,11 @@ _CeruleanGymGymGuideChampInMakingText::
 
 	para "The LEADER, MISTY,"
 	line "is a pro who uses"
-	cont "water #MON!"
+	cont "WATER #MON!"
 
 	para "You can drain all"
 	line "their water with"
-	cont "plant #MON!"
+	cont "GRASS #MON!"
 
 	para "Or, zap them with"
 	line "electricity!"
@@ -127,7 +127,7 @@ _CeruleanGymGymGuideBeatMistyText::
 	text "You beat MISTY!"
 	line "What'd I tell ya?"
 
-	para "You and me kid,"
-	line "we make a pretty"
+	para "You and me, kid!"
+	line "We make a pretty"
 	cont "darn good team!"
 	done

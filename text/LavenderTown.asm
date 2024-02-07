@@ -59,6 +59,7 @@ _LavenderTownPokemonHouseSignText::
 
 _LavenderTownPokemonTowerSignText::
 	text "May the Souls of"
-	line "#MON Rest Easy"
+	line "Lost #MON Rest"
+    cont "in Peace"
 	cont "#MON TOWER"
 	done

@@ -127,7 +127,7 @@ _DexSeenOwnedText::
 	text_end
 
 _DexRatingText::
-	text "#DEX Rating<COLON>"
+	text "#DEX Rating:"
 	done
 
 _GymStatueText1::
@@ -169,7 +169,7 @@ _PewterCityPokecenterGuyText::
 	line "sings, #MON"
 	cont "get drowsy<...>"
 
-	para "<...>Me too<...>"
+	para "<l...>Me too<...>"
 	line "Snore<...>"
 	done
 
@@ -182,7 +182,7 @@ _CeruleanPokecenterGuyText::
 	done
 
 _LavenderPokecenterGuyText::
-	text "CUBONEs wear"
+	text "CUBONE wear"
 	line "skulls, right?"
 
 	para "People will pay a"
@@ -422,9 +422,10 @@ _OakLabEmailText::
 	line "#MON trainers!"
 
 	para "The elite trainers"
-	line "of #MON LEAGUE"
-	cont "are ready to take"
-	cont "on all comers!"
+	line "of the #MON"
+	cont "LEAGUE are ready"
+	cont "to take on all"
+    cont "comers!"
 
 	para "Bring your best"
 	line "#MON and see"
@@ -503,13 +504,14 @@ _ViridianSchoolNotebookText1::
 	line "used to catch"
 	cont "#MON."
 
-	para "Up to 6 #MON"
+	para "Up to six #MON"
 	line "can be carried."
 
 	para "People who raise"
-	line "and make #MON"
-	cont "fight are called"
-	cont "#MON trainers."
+	line "#MON and"
+	cont "battle with them"
+	cont "are called"
+	cont "#MON TRAINERS."
 	prompt
 
 _ViridianSchoolNotebookText2::
@@ -520,7 +522,7 @@ _ViridianSchoolNotebookText2::
 	cont "catch, so weaken"
 	cont "it first!"
 
-	para "Poison, burns and"
+	para "Poison, burns, and"
 	line "other damage are"
 	cont "effective!"
 	prompt
@@ -544,14 +546,15 @@ _ViridianSchoolNotebookText4::
 	para "The goal for"
 	line "#MON trainers"
 	cont "is to beat the "
-	cont "top 8 #MON"
+	cont "top eight #MON"
 	cont "GYM LEADERs."
 
 	para "Do so to earn the"
 	line "right to face<...>"
 
-	para "The ELITE FOUR of"
-	line "#MON LEAGUE!"
+	para "The ELITE FOUR"
+	line "of the #MON"
+    cont "LEAGUE!"
 	prompt
 
 _EnemiesOnEverySideText::
@@ -576,7 +579,7 @@ _IndigoPlateauHQText::
 _RedBedroomSNESText::
 	text "<PLAYER> is"
 	line "playing the SNES!"
-	cont "<...>Okay!"
+	cont "<l...>Okay!"
 	cont "It's time to go!"
 	done
 
@@ -605,7 +608,7 @@ _LinkCableHelpText1::
 	text "TRAINER TIPS"
 
 	para "Using a Game Link"
-	line "Cable"
+	line "Cable:"
 	prompt
 
 _LinkCableHelpText2::
@@ -638,7 +641,7 @@ _LinkCableInfoText3::
 _ViridianSchoolBlackboardText1::
 	text "The blackboard"
 	line "describes #MON"
-	cont "STATUS changes"
+	cont "status changes"
 	cont "during battles."
 	prompt
 
@@ -652,12 +655,12 @@ _ViridianBlackboardSleepText::
 	line "attack if it's"
 	cont "asleep!"
 
-	para "#MON will stay"
+	para "It will stay"
 	line "asleep even after"
-	cont "battles."
+	cont "the battle ends."
 
 	para "Use AWAKENING to"
-	line "wake them up!"
+	line "wake it up!"
 	prompt
 
 _ViridianBlackboardPoisonText::
@@ -673,9 +676,10 @@ _ViridianBlackboardPoisonText::
 	prompt
 
 _ViridianBlackboardPrlzText::
-	text "Paralysis could"
-	line "make #MON"
-	cont "moves misfire!"
+	text "Paralysis reduces"
+    line "SPEED and may"
+	cont "make a #MON"
+	cont "unable to move!"
 
 	para "Paralysis remains"
 	line "after battles."
@@ -686,9 +690,9 @@ _ViridianBlackboardPrlzText::
 
 _ViridianBlackboardBurnText::
 	text "A burn reduces"
-	line "power and speed."
-	cont "It also causes"
-	cont "ongoing damage."
+    line "ATTACK. It also"
+	cont "causes ongoing"
+    cont "damage."
 
 	para "Burns remain"
 	line "after battles."
@@ -707,7 +711,7 @@ _ViridianBlackboardFrozenText::
 	cont "battle ends."
 
 	para "Use ICE HEAL to"
-	line "thaw out #MON!"
+	line "thaw it out!"
 	prompt
 
 _VermilionGymTrashText::
@@ -963,7 +967,7 @@ _MoveNoPPText::
 	prompt
 
 _MoveDisabledText::
-	text "The move is"
+	text "This move is"
 	line "disabled!"
 	prompt
 
@@ -1007,7 +1011,7 @@ _IsFrozenText::
 	prompt
 
 _FullyParalyzedText::
-	text "<USER>'s"
+	text "<USER> is"
 	line "fully paralyzed!"
 	prompt
 
@@ -1022,8 +1026,9 @@ _MustRechargeText::
 	prompt
 
 _DisabledNoMoreText::
-	text "<USER>'s"
-	line "disabled no more!"
+	text "<USER>"
+	line "isn't disabled"
+    cont "anymore!"
 	prompt
 
 _IsConfusedText::
@@ -1037,8 +1042,9 @@ _HurtItselfText::
 	prompt
 
 _ConfusedNoMoreText::
-	text "<USER>'s"
-	line "confused no more!"
+	text "<USER>"
+	line "isn't confused"
+    cont "anymore!"
 	prompt
 
 _SavingEnergyText::
@@ -1129,8 +1135,8 @@ _KeptGoingAndCrashedText::
 	prompt
 
 _UnaffectedText::
-	text "<TARGET>'s"
-	line "unaffected!"
+	text "<TARGET>"
+	line "is unaffected!"
 	prompt
 
 _DoesntAffectMonText::
@@ -1193,7 +1199,7 @@ _BuildingRageText::
 	prompt
 
 _MirrorMoveFailedText::
-	text "The MIRROR MOVE"
+	text "MIRROR MOVE"
 	next "failed!"
 	prompt
 
@@ -1302,7 +1308,7 @@ _EnoughText::
 	text_end
 
 _OKExclamationText::
-	text "OK!@"
+	text "Okay!@"
 	text_end
 
 _GoodText::
@@ -1396,8 +1402,8 @@ _AntidoteText::
 
 _ParlyzHealText::
 	text_ram wcd6d
-	text "'s"
-	line "rid of paralysis!"
+	text "is no"
+	line "longer paralyzed!"
 	done
 
 _BurnHealText::
@@ -1529,7 +1535,7 @@ _CantCarryMoreText::
 
 _WhatToTossText::
 	text "What do you want"
-	line "to toss away?"
+	line "to toss?"
 	done
 
 _TossHowManyText::
@@ -1560,24 +1566,24 @@ _DepositWhichMonText::
 _MonWasStoredText::
 	text_ram wStringBuffer
 	text " was"
-	line "stored in Box @"
+	line "stored in BOX @"
 	text_ram wBoxNumString
 	text "."
 	prompt
 
 _CantDepositLastMonText::
 	text "You can't deposit"
-	line "the last #MON!"
+	line "your last #MON!"
 	prompt
 
 _BoxFullText::
-	text "Oops! This Box is"
+	text "Oops! This BOX is"
 	line "full of #MON."
 	prompt
 
 _MonIsTakenOutText::
 	text_ram wStringBuffer
-	text " is"
+	text " was"
 	line "taken out."
 	cont "Got @"
 	text_ram wStringBuffer
@@ -1606,15 +1612,15 @@ _OnceReleasedText::
 	text "Once released,"
 	line "@"
 	text_ram wStringBuffer
-	text " is"
-	cont "gone forever. OK?"
+	text " is gone"
+	cont "forever. Okay?"
 	done
 
 _MonWasReleasedText::
 	text_ram wStringBuffer
 	text " was"
 	line "released outside."
-	cont "Bye @"
+	cont "Bye, @"
 	text_ram wStringBuffer
 	text "!"
 	prompt
@@ -1683,13 +1689,13 @@ _WhereWouldYouLikeText::
 	done
 
 _PleaseWaitText::
-	text "OK, please wait"
+	text "Okay, please wait"
 	line "just a moment."
 	done
 
 _LinkCanceledText::
 	text "The link was"
-	line "canceled."
+	line "cancelled."
 	done
 
 _OakSpeechText1::
@@ -1714,8 +1720,8 @@ _OakSpeechText2B::
 
 	para "For some people,"
 	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	cont "pets. Others"
+	cont "battle with them."
 
 	para "Myself<...>"
 
@@ -1729,12 +1735,13 @@ _IntroducePlayerText::
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "This is my"
+	line "grandson. He's"
+	cont "been your rival"
+	cont "since you were a"
+    cont "baby."
 
-	para "<...>Erm, what is"
+	para "<l...>Erm, what is"
 	line "his name again?"
 	prompt
 

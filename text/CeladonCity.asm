@@ -68,7 +68,8 @@ _CeladonCityFisherText::
 
 	para "It evolved from"
 	line "POLIWHIRL when I"
-	cont "used WATER STONE!"
+	cont "used a WATER"
+    cont "STONE!"
 	done
 
 _CeladonCityPoliwrathText::

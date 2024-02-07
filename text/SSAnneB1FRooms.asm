@@ -79,9 +79,9 @@ _SSAnneB1FRoomsSailor5EndBattleText::
 	prompt
 
 _SSAnneB1FRoomsSailor5AfterBattleText::
-	text "Jellyfish some-"
-	line "times drift into"
-	cont "the ship."
+	text "Jellyfish"
+	line "sometimes drift"
+	cont "into the ship."
 	done
 
 _SSAnneB1FRoomsFisherBattleText::
@@ -101,7 +101,7 @@ _SSAnneB1FRoomsFisherEndBattleText::
 _SSAnneB1FRoomsFisherAfterBattleText::
 	text "I was going to"
 	line "make you my"
-	cont "assistant too!"
+	cont "assistant, too!"
 	done
 
 _SSAnneB1FRoomsSuperNerdText::

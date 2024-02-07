@@ -13,7 +13,7 @@ _CeruleanBadgeHouseMiddleAgedManText::
 _CeruleanBadgeHouseMiddleAgedManWhichBadgeText::
 	text "Now then<...>"
 
-	para "Which of the 8"
+	para "Which of the eight"
 	line "BADGEs should I"
 	cont "describe?"
 	done
@@ -63,8 +63,8 @@ _CeruleanBadgeHouseRainbowBadgeText::
 	line "become unruly!"
 
 	para "It also lets you"
-	line "use STRENGTH out-"
-	cont "side of battle."
+	line "use STRENGTH"
+	cont "outside of battle."
 	prompt
 
 _CeruleanBadgeHouseSoulBadgeText::

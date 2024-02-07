@@ -19,7 +19,7 @@ _Route25Youngster1AfterBattleText::
 _Route25Youngster2BattleText::
 	text "Dad took me to a"
 	line "great party on"
-	cont "S.S.ANNE at"
+	cont "the S.S.ANNE at"
 	cont "VERMILION CITY!"
 	done
 
@@ -29,15 +29,15 @@ _Route25Youngster2EndBattleText::
 	prompt
 
 _Route25Youngster2AfterBattleText::
-	text "On S.S.ANNE, I"
+	text "On the S.S.ANNE, I"
 	line "saw trainers from"
 	cont "around the world."
 	done
 
 _Route25CooltrainerMBattleText::
 	text "I'm a cool guy."
-	line "I've got a girl"
-	cont "friend!"
+	line "I've got a"
+	cont "girlfriend!"
 	done
 
 _Route25CooltrainerMEndBattleText::
@@ -51,8 +51,8 @@ _Route25CooltrainerMAfterBattleText::
 	done
 
 _Route25CooltrainerF1BattleText::
-	text "Hi! My boy"
-	line "friend is cool!"
+	text "Hi! My boyfriend"
+	line "is cool!"
 	done
 
 _Route25CooltrainerF1EndBattleText::
@@ -72,7 +72,7 @@ _Route25Youngster3BattleText::
 
 _Route25Youngster3EndBattleText::
 	text "I knew"
-	line "I'd lose too!"
+	line "I'd lose, too!"
 	prompt
 
 _Route25Youngster3AfterBattleText::

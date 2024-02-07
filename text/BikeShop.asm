@@ -21,7 +21,7 @@ _BikeShopClerkOhThatsAVoucherText::
 
 	para "A BIKE VOUCHER!"
 
-	para "OK! Here you go!"
+	para "Okay! Here you go!"
 	prompt
 
 _BikeShopExchangedVoucherText::
@@ -32,7 +32,7 @@ _BikeShopExchangedVoucherText::
 
 _BikeShopComeAgainText::
 	text "Come back again"
-	line "some time!"
+	line "sometime!"
 	done
 
 _BikeShopClerkHowDoYouLikeYourBicycleText::
@@ -56,7 +56,8 @@ _BikeShopMiddleAgedWomanText::
 
 	para "You can't put a"
 	line "shopping basket"
-	cont "on an MTB!"
+	cont "on a mountain"
+    cont "BIKE!"
 	done
 
 _BikeShopYoungsterTheseBikesAreExpensiveText::

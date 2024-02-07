@@ -31,8 +31,9 @@ _PokemonTower6FChanneler2BattleText::
 	done
 
 _PokemonTower6FChanneler2EndBattleText::
-	text "Some-"
-	line "thing fell out!"
+	text " "
+	line "Something fell"
+    cont "out!"
 	prompt
 
 _PokemonTower6FChanneler2AfterBattleText::

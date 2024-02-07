@@ -1,5 +1,5 @@
 _PewterPokecenterGentlemanText::
-	text "What!?"
+	text "What?!"
 
 	para "TEAM ROCKET is"
 	line "at MT.MOON? Huh?"

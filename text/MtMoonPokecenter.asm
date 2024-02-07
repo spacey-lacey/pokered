@@ -1,9 +1,9 @@
 _MtMoonPokecenterYoungsterText::
-	text "I've 6 # BALLs"
-	line "set in my belt."
+	text "I have six #"
+	line "BALLs in my belt."
 
 	para "At most, you can"
-	line "carry 6 #MON."
+	line "carry six #MON."
 	done
 
 _MtMoonPokecenterGentlemanText::

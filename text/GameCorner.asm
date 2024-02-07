@@ -92,7 +92,7 @@ _GameCornerGymGuideChampInMakingText::
 
 	para "CELADON GYM's"
 	line "LEADER is ERIKA!"
-	cont "She uses grass-"
+	cont "She uses GRASS"
 	cont "type #MON!"
 
 	para "She might appear"
@@ -167,7 +167,8 @@ _GameCornerRocketImGuardingThisPosterText::
 	done
 
 _GameCornerRocketBattleEndText::
-	text "Dang!"
+	text " "
+	line "Dang!"
 	prompt
 
 _GameCornerRocketAfterBattleText::
@@ -180,7 +181,7 @@ _GameCornerPosterSwitchBehindPosterText::
 	text "Hey!"
 
 	para "A switch behind"
-	line "the poster!?"
+	line "the poster?!"
 	cont "Let's push it!@"
 	text_end
 

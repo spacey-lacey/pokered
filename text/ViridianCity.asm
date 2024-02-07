@@ -5,7 +5,7 @@ _ViridianCityYoungster1Text::
 
 	para "It's great that"
 	line "you can carry and"
-	cont "use #MON any-"
+	cont "use #MON any"
 	cont "time, anywhere!"
 	done
 
@@ -14,7 +14,7 @@ _ViridianCityGambler1GymAlwaysClosedText::
 	line "is always closed."
 
 	para "I wonder who the"
-	line "LEADER is?"
+	line "LEADER is<...?"
 	done
 
 _ViridianCityGambler1GymLeaderReturnedText::
@@ -24,7 +24,8 @@ _ViridianCityGambler1GymLeaderReturnedText::
 
 _ViridianCityYoungster2YouWantToKnowAboutText::
 	text "You want to know"
-	line "about the 2 kinds"
+	line "about the two"
+	cont "different kinds"
 	cont "of caterpillar"
 	cont "#MON?"
 	done
@@ -90,7 +91,7 @@ _ViridianCityFisherReceivedTM42Text::
 _ViridianCityFisherTM42ExplanationText::
 	text "TM42 contains"
 	line "DREAM EATER<...>"
-	cont "<...>Snore<...>"
+	cont "<l...>Snore<...>"
 	done
 
 _ViridianCityFisherTM42NoRoomText::
@@ -115,9 +116,9 @@ _ViridianCityOldManKnowHowToCatchPokemonText::
 	line "a #DEX."
 
 	para "When you catch a"
-	line "#MON, #DEX"
-	cont "is automatically"
-	cont "updated."
+	line "#MON, your"
+    cont "#DEX is updated"
+	cont "automatically."
 
 	para "What? Don't you"
 	line "know how to catch"

@@ -1,11 +1,12 @@
 _PewterCityCooltrainerFText::
 	text "It's rumored that"
-	line "CLEFAIRYs came"
+	line "CLEFAIRY came"
 	cont "from the moon!"
 
-	para "They appeared "
-	line "after MOON STONE"
-	cont "fell on MT.MOON."
+	para "They appeared"
+	line "after a MOON"
+	cont "STONE fell on"
+    cont "MT.MOON."
 	done
 
 _PewterCityCooltrainerMText::
@@ -63,7 +64,7 @@ _PewterCitySuperNerd2ImSprayingRepelText::
 	done
 
 _PewterCityYoungsterYoureATrainerFollowMeText::
-	text "You're a trainer"
+	text "You're a trainer,"
 	line "right? BROCK's"
 	cont "looking for new"
 	cont "challengers!"
@@ -81,8 +82,8 @@ _PewterCityTrainerTipsText::
 
 	para "Any #MON that"
 	line "takes part in"
-	cont "battle, however"
-	cont "short, earns EXP!"
+	cont "battle, no matter"
+	cont "how long, earns EXP!"
 	done
 
 _PewterCityPoliceNoticeSignText::

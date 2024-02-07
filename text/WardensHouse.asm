@@ -56,12 +56,12 @@ _WardensHouseWardenHM04ExplanationText::
 
 	para "It lets #MON"
 	line "move boulders"
-	cont "when you're out-"
-	cont "side of battle."
+	cont "outside of battle."
 
 	para "Oh yes, did you"
-	line "find SECRET HOUSE"
-	cont "in SAFARI ZONE?"
+	line "find the SECRET"
+	cont "HOUSE in the"
+    cont "SAFARI ZONE?"
 
 	para "If you do, you"
 	line "win an HM!"

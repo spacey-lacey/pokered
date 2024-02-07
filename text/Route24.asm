@@ -1,6 +1,6 @@
 _Route24CooltrainerM1YouBeatOurContestText::
 	text "Congratulations!"
-	line "You beat our 5"
+	line "You beat our five"
 	cont "contest trainers!@"
 	text_end
 
@@ -29,8 +29,9 @@ _Route24CooltrainerM1JoinTeamRocketText::
 	cont "TEAM ROCKET?"
 
 	para "We're a group"
-	line "dedicated to evil"
-	cont "using #MON!"
+	line "dedicated to"
+	cont "using #MON for"
+    cont "evil!"
 
 	para "Want to join?"
 
@@ -41,7 +42,7 @@ _Route24CooltrainerM1JoinTeamRocketText::
 	para "I'm telling you"
 	line "to join!"
 
-	para "OK, you need"
+	para "Okay, you need"
 	line "convincing!"
 
 	para "I'll make you an"
@@ -50,8 +51,9 @@ _Route24CooltrainerM1JoinTeamRocketText::
 	done
 
 _Route24CooltrainerM1DefeatedText::
-	text "Arrgh!"
-	line "You are good!"
+	text " "
+	line "Arrgh! You are"
+    cont "good!"
 	prompt
 
 _Route24CooltrainerM1YouCouldBecomeATopLeaderText::

@@ -89,9 +89,10 @@ _CeruleanCityRocketTM28NoRoomText::
 	done
 
 _CeruleanCityRocketIGiveUpText::
-	text "Stop!"
-	line "I give up! I'll"
-	cont "leave quietly!"
+	text " "
+	line "Stop! I give up!"
+	cont "I'll leave"
+    cont "quietly!"
 	prompt
 
 _CeruleanCityRocketIllReturnTheTMText::
@@ -102,8 +103,8 @@ _CeruleanCityRocketIllReturnTheTMText::
 _CeruleanCityCooltrainerMText::
 	text "You're a trainer"
 	line "too? Collecting,"
-	cont "fighting, it's a"
-	cont "tough life."
+	cont "fighting<...>"
+    cont "It's a tough life."
 	done
 
 _CeruleanCitySuperNerd1Text::
@@ -131,7 +132,7 @@ _CeruleanCityGuardText::
 	cont "behind this most"
 	cont "heinous crime!"
 
-	para "Even our POLICE"
+	para "Even our police"
 	line "force has trouble"
 	cont "with the ROCKETs!"
 	done
@@ -139,12 +140,12 @@ _CeruleanCityGuardText::
 _CeruleanCityCooltrainerF1SlowbroUseSonicboomText::
 	text "OK! SLOWBRO!"
 	line "Use SONICBOOM!"
-	cont "Come on, SLOWBRO"
+	cont "Come on, SLOWBRO,"
 	cont "pay attention!"
 	done
 
 _CeruleanCityCooltrainerF1SlowbroPunchText::
-	text "SLOWBRO punch!"
+	text "SLOWBRO, punch!"
 	line "No! You blew it"
 	cont "again!"
 	done
@@ -213,10 +214,10 @@ _CeruleanCitySignText::
 _CeruleanCityTrainerTipsText::
 	text "TRAINER TIPS"
 
-	para "Pressing B Button"
-	line "during evolution"
-	cont "cancels the whole"
-	cont "process."
+	para "Pressing the B"
+	line "button during"
+	cont "evolution cancels"
+    cont "the whole process."
 	done
 
 _CeruleanCityBikeShopSign::

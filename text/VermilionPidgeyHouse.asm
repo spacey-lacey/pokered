@@ -1,6 +1,6 @@
 _VermilionPidgeyHouseYoungsterText::
 	text "I'm getting my"
-	line "PIDGEY to fly a"
+	line "PIDGEY to FLY a"
 	cont "letter to SAFFRON"
 	cont "in the north!"
 	done

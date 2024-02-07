@@ -8,7 +8,7 @@ _Museum2FYoungsterText::
 _Museum2FGrampsText::
 	text "July 20, 1969!"
 
-	para "The 1st lunar"
+	para "The first lunar"
 	line "landing!"
 
 	para "I bought a color"

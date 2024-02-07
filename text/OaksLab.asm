@@ -26,20 +26,23 @@ _OaksLabThoseArePokeBallsText::
 	done
 
 _OaksLabYouWantCharmanderText::
-	text "So! You want the"
-	line "fire #MON,"
+	text "So! You want"
+	line "the FIRE type"
+	cont "#MON,"
 	cont "CHARMANDER?"
 	done
 
 _OaksLabYouWantSquirtleText::
-	text "So! You want the"
-	line "water #MON,"
+	text "So! You want"
+	line "the WATER type"
+	cont "#MON,"
 	cont "SQUIRTLE?"
 	done
 
 _OaksLabYouWantBulbasaurText::
-	text "So! You want the"
-	line "plant #MON,"
+	text "So! You want"
+	line "the GRASS type"
+	cont "#MON,"
 	cont "BULBASAUR?"
 	done
 
@@ -248,7 +251,7 @@ _OaksLabRivalReceivedMonText::
 	text_end
 
 _OaksLabRivalIllTakeYouOnText::
-	text "<RIVAL>: Wait"
+	text "<RIVAL>: Wait,"
 	line "<PLAYER>!"
 	cont "Let's check out"
 	cont "our #MON!"

@@ -38,8 +38,9 @@ _Museum1FScientist1TheresALabSomewhereText::
 	done
 
 _Museum1FScientist1AmberIsFossilizedTreeSapText::
-	text "AMBER is fossil-"
-	line "ized tree sap."
+	text "AMBER is"
+	line "fossilized tree"
+    cont "sap."
 	done
 
 _Museum1FScientist1GoToOtherSideText::
@@ -96,8 +97,8 @@ _Museum1FScientist2YouDontHaveSpaceText::
 	done
 
 _Museum1FScientist3Text::
-	text "We are proud of 2"
-	line "fossils of very"
+	text "We are proud of"
+	line "two fossils of"
 	cont "rare, prehistoric"
 	cont "#MON!"
 	done

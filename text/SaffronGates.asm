@@ -3,8 +3,8 @@ _SaffronGateGuardGeeImThirstyText::
 	line "Gee, I'm thirsty,"
 	cont "though!"
 
-	para "Oh wait there,"
-	line "the road's closed."
+	para "Oh, wait there."
+	line "The road's closed."
 	done
 
 _SaffronGateGuardImParchedText::

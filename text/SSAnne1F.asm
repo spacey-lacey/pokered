@@ -4,8 +4,8 @@ _SSAnne1FWaiterText::
 	cont "this ship!"
 
 	para "I will be happy"
-	line "to serve you any-"
-	cont "thing you please!"
+	line "to serve you"
+	cont "anything you like!"
 
 	para "Ah! Le strong"
 	line "silent type!"

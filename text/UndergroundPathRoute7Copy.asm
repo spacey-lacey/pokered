@@ -1,10 +1,11 @@
 _UndergroundPathRoute7CopyUnusedGirlText::
 	text "I want to shop at"
-	line "the dept. store"
-	cont "in CELADON, but<...>"
+	line "the deptartment"
+	cont "store in CELADON,"
+    cont "but<...>"
 
 	para "There are so many"
-	line "rough looking"
+	line "rough-looking"
 	cont "people there."
 	done
 
@@ -15,8 +16,9 @@ _UndergroundPathRoute7CopyUnusedTeamRocketHadAHideoutText::
 	done
 
 _UndergroundPathRoute7CopyUnusedMiddleAgedManText::
-	text "You're here to"
-	line "shop in CELADON?"
+	text "You're going"
+	line "shopping in"
+    cont "CELADON?"
 
 	para "Just step outside"
 	line "and head west!"

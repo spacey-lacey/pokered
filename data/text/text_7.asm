@@ -34,7 +34,7 @@ _ThrewAwayItemText::
 	prompt
 
 _IsItOKToTossItemText::
-	text "Is it OK to toss"
+	text "Okay to toss"
 	line "@"
 	text_ram wStringBuffer
 	text "?"
@@ -163,7 +163,7 @@ _NoTrade3Text::
 	done
 
 _WrongMon3Text::
-	text "<...>This is no"
+	text "<l...>This is no"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."

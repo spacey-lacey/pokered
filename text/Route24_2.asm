@@ -10,7 +10,7 @@ _Route24CooltrainerM2AfterBattleText::
 	done
 
 _Route24CooltrainerM3BattleText::
-	text "OK! I'm No. 5!"
+	text "Okay! I'm No.5!"
 	line "I'll stomp you!"
 	done
 
@@ -20,12 +20,12 @@ _Route24CooltrainerM3EndBattleText::
 	prompt
 
 _Route24CooltrainerM3AfterBattleText::
-	text "I did my best, I"
+	text "I did my best. I"
 	line "have no regrets!"
 	done
 
 _Route24CooltrainerF1BattleText::
-	text "I'm No. 4!"
+	text "I'm No.4!"
 	line "Getting tired?"
 	done
 
@@ -40,7 +40,7 @@ _Route24CooltrainerF1AfterBattleText::
 	done
 
 _Route24Youngster1BattleText::
-	text "Here's No. 3!"
+	text "Here's No.3!"
 	line "I won't be easy!"
 	done
 
@@ -50,7 +50,7 @@ _Route24Youngster1EndBattleText::
 	prompt
 
 _Route24Youngster1AfterBattleText::
-	text "I did my best, I"
+	text "I did my best. I"
 	line "have no regrets!"
 	done
 
@@ -65,7 +65,7 @@ _Route24CooltrainerF2EndBattleText::
 	prompt
 
 _Route24CooltrainerF2AfterBattleText::
-	text "I did my best, I"
+	text "I did my best. I"
 	line "have no regrets!"
 	done
 
@@ -85,6 +85,6 @@ _Route24Youngster2EndBattleText::
 	prompt
 
 _Route24Youngster2AfterBattleText::
-	text "I did my best, I"
+	text "I did my best. I"
 	line "have no regrets!"
 	done

@@ -55,7 +55,7 @@ _CinnabarGymBlaineTM38ExplanationText::
 	para "TM38 contains"
 	line "FIRE BLAST!"
 
-	para "Teach it to fire-"
+	para "Teach it to FIRE"
 	line "type #MON!"
 
 	para "CHARMELEON or"

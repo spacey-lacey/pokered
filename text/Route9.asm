@@ -17,7 +17,7 @@ _Route9CooltrainerF1AfterBattleText::
 
 _Route9CooltrainerM1BattleText::
 	text "Who's that walking"
-	line "with those good"
+	line "with those good-"
 	cont "looking #MON?"
 	done
 
@@ -48,7 +48,7 @@ _Route9CooltrainerM2AfterBattleText::
 
 _Route9CooltrainerF2BattleText::
 	text "Don't you dare"
-	line "condescend me!"
+	line "condescend to me!"
 	done
 
 _Route9CooltrainerF2EndBattleText::
@@ -72,7 +72,7 @@ _Route9Hiker1EndBattleText::
 	text "Keep it"
 	line "coming, eh!"
 
-	para "Oh wait. I'm out"
+	para "Oh, wait. I'm out"
 	line "of #MON!"
 	prompt
 
@@ -135,7 +135,7 @@ _Route9Hiker3AfterBattleText::
 	done
 
 _Route9Youngster2BattleText::
-	text "Go, my super bug"
+	text "Go, my super BUG"
 	line "#MON!"
 	done
 
@@ -146,7 +146,7 @@ _Route9Youngster2EndBattleText::
 
 _Route9Youngster2AfterBattleText::
 	text "If you don't like"
-	line "bug #MON, you"
+	line "BUG #MON, you"
 	cont "bug me!"
 	done
 

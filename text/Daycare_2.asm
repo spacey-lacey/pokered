@@ -1,5 +1,5 @@
 _DaycareGentlemanAllRightThenText::
-	text "All right then,"
+	text "Alright then,"
 	line "@"
 	text_end
 
@@ -30,5 +30,5 @@ _DaycareGentlemanHeresYourMonText::
 
 _DaycareGentlemanNotEnoughMoneyText::
 	text "Hey, you don't"
-	line "have enough ¥!"
+	line "have enough money!"
 	done

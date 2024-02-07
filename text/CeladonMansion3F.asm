@@ -45,8 +45,8 @@ _CeladonMansion3FGameDesignerCompletedDexText::
 _CeladonMansion3FGameProgramPCText::
 	text "It's the game"
 	line "program! Messing"
-	cont "with it could bug"
-	cont "out the game!"
+	cont "with it could"
+	cont "crash the game!"
 	done
 
 _CeladonMansion3FPlayingGamePCText::

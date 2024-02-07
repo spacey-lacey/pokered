@@ -19,7 +19,7 @@ _PokemonFanClubSeelFanNormalText::
 	done
 
 _PokemonFanClubSeelFanBetterText::
-	text "Oh dear!"
+	text "Oh, dear!"
 
 	para "My SEEL is far"
 	line "more attractive!"
@@ -59,21 +59,20 @@ _PokemonFanClubChairmanStoryText::
 	para "My favorite"
 	line "RAPIDASH<...>"
 
-	para "It<...>cute<...>"
-	line "lovely<...>smart<...>"
-	cont "plus<...>amazing<...>"
-	cont "you think so?<...>"
-	cont "oh yes<...>it<...>"
-	cont "stunning<...>"
-	cont "kindly<...>"
+	para "It<...> cute<...>"
+	line "lovely<...> smart<...>"
+	cont "plus<...> amazing<...>"
+	cont "you think so? <...>"
+	cont "oh, yes<...> it<...>"
+	cont "stunning<...> kindly<...>"
 	cont "love it!"
 
-	para "Hug it<...>when<...>"
-	cont "sleeping<...>warm"
+	para "Hug it<...> when<...>"
+	cont "sleeping<...> warm"
 	cont "and cuddly<...>"
 	cont "spectacular<...>"
 	cont "ravishing<...>"
-	cont "<...>Oops! Look at"
+	cont "<l...>Oops! Look at"
 	cont "the time! I kept"
 	cont "you too long!"
 
@@ -99,7 +98,7 @@ _PokemonFanClubExplainBikeVoucherText::
 	line "FEAROW will FLY"
 	cont "me anywhere!"
 
-	para "So, I don't need a"
+	para "So I don't need a"
 	line "BICYCLE!"
 
 	para "I hope you like"
@@ -115,8 +114,8 @@ _PokemonFanClubNoStoryText::
 _PokemonFanClubChairFinalText::
 	text "Hello, <PLAYER>!"
 
-	para "Did you come see"
-	line "me about my"
+	para "Did you come to"
+	line "see me about my"
 	cont "#MON again?"
 
 	para "No? Too bad!"

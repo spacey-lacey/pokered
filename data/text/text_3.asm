@@ -5,7 +5,7 @@ _FileDataDestroyedText::
 
 _WouldYouLikeToSaveText::
 	text "Would you like to"
-	line "SAVE the game?"
+	line "save the game?"
 	done
 
 _GameSavedText::
@@ -202,7 +202,7 @@ _NoEffectText::
 	prompt
 
 _ButItFailedText::
-	text "But it failed! "
+	text "But it failed!"
 	prompt
 
 _DidntAffectText::
@@ -217,8 +217,8 @@ _IsUnaffectedText::
 
 _ParalyzedMayNotAttackText::
 	text "<TARGET>'s"
-	line "paralyzed! It may"
-	cont "not attack!"
+	line "paralyzed! It"
+	cont "might not attack!"
 	prompt
 
 _SubstituteText::

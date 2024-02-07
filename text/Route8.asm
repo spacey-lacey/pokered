@@ -1,7 +1,7 @@
 _Route8SuperNerd1BattleText::
 	text "You look good at"
-	line "#MON, but"
-	cont "how's your chem?"
+	line "#MON, but how's"
+	cont "your chem grade?"
 	done
 
 _Route8SuperNerd1EndBattleText::
@@ -10,12 +10,12 @@ _Route8SuperNerd1EndBattleText::
 	prompt
 
 _Route8SuperNerd1AfterBattleText::
-	text "I am better at"
+	text "I'm better at"
 	line "school than this!"
 	done
 
 _Route8Gambler1BattleText::
-	text "All right! Let's"
+	text "Alright! Let's"
 	line "roll the dice!"
 	done
 
@@ -41,8 +41,10 @@ _Route8SuperNerd2EndBattleText::
 
 _Route8SuperNerd2AfterBattleText::
 	text "Go with GRIMER"
-	line "first<...>and<...>"
-	cont "<...>and<...>then<...>"
+    line "first<...>"
+	cont "and<...>"
+    cont "and<...>"
+    cont "then<...>"
 	done
 
 _Route8CooltrainerF1BattleText::
@@ -78,8 +80,8 @@ _Route8SuperNerd3AfterBattleText::
 	done
 
 _Route8CooltrainerF2BattleText::
-	text "MEOWTH is so cute,"
-	line "meow, meow, meow!"
+	text "MEOWTH is so cute!"
+	line "Meow, meow, meow!"
 	done
 
 _Route8CooltrainerF2EndBattleText::
@@ -104,7 +106,7 @@ _Route8CooltrainerF3EndBattleText::
 	prompt
 
 _Route8CooltrainerF3AfterBattleText::
-	text "SAFFRON's gate"
+	text "SAFFRON's gate-"
 	line "keeper won't let"
 	cont "us through."
 	cont "He's so mean!"
@@ -129,7 +131,7 @@ _Route8Gambler2AfterBattleText::
 
 _Route8CooltrainerF4BattleText::
 	text "What's a cute,"
-	line "round and fluffy"
+	line "round, and fluffy"
 	cont "#MON?"
 	done
 

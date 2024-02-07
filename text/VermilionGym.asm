@@ -7,8 +7,8 @@ _VermilionGymLTSurgePreBattleText::
 	line "long in combat!"
 	cont "That's for sure!"
 
-	para "I tell you kid,"
-	line "electric #MON"
+	para "I tell you, kid,"
+	line "ELECTRIC #MON"
 	cont "saved me during"
 	cont "the war!"
 

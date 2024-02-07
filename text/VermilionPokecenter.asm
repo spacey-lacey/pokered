@@ -1,5 +1,5 @@
 _VermilionPokecenterFishingGuruText::
-	text "Even if they are"
+	text "Even if they're"
 	line "the same level,"
 	cont "#MON can have"
 	cont "very different"

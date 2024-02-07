@@ -32,7 +32,8 @@ _SSAnneKitchenCook5Text::
 	done
 
 _SSAnneKitchenCook6Text::
-	text "Snivel<...>Sniff<...>"
+	text "Snivel<...>"
+    line "Sniff<...>"
 
 	para "I only get to"
 	line "peel onions<...>"
@@ -40,7 +41,7 @@ _SSAnneKitchenCook6Text::
 	done
 
 _SSAnneKitchenCook7MainCourseIsText::
-	text "Er-hem! Indeed I"
+	text "Er-hem! Indeed, I"
 	line "am le CHEF!"
 
 	para "Le main course is"

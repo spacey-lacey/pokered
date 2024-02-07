@@ -1,6 +1,6 @@
 _DexCompletionText::
-	text "#DEX comp-"
-	line "letion is:"
+	text "Your #DEX"
+	line "completion is:"
 
 	para "@"
 	text_decimal hDexRatingNumMonsSeen, 1, 3
@@ -10,7 +10,7 @@ _DexCompletionText::
 	text " #MON owned"
 
 	para "PROF.OAK's"
-	line "Rating:"
+	line "rating:"
 	prompt
 
 _DexRatingText_Own0To9::
@@ -48,9 +48,9 @@ _DexRatingText_Own40To49::
 	done
 
 _DexRatingText_Own50To59::
-	text "You finally got at"
-	line "least 50 species!"
-	cont "Be sure to get"
+	text "You finally got"
+	line "50 species!"
+	cont "Be sure to get an"
 	cont "EXP.ALL from my"
 	cont "AIDE!"
 	done
@@ -79,8 +79,8 @@ _DexRatingText_Own90To99::
 	done
 
 _DexRatingText_Own100To109::
-	text "You finally got at"
-	line "least 100 species!"
+	text "You finally got"
+	line "100 species!"
 	cont "I can't believe"
 	cont "how good you are!"
 	done

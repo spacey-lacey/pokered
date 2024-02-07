@@ -48,7 +48,7 @@ _MtMoon1FCooltrainerF1AfterBattleText::
 	done
 
 _MtMoon1FSuperNerdBattleText::
-	text "What! Don't sneak"
+	text "What?! Don't sneak"
 	line "up on me!"
 	done
 

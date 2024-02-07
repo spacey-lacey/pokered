@@ -77,7 +77,7 @@ _RockTunnelB1FHiker2EndBattleText::
 _RockTunnelB1FHiker2AfterBattleText::
 	text "In mountains,"
 	line "you'll often find"
-	cont "rock-type #MON."
+	cont "ROCK type #MON."
 	done
 
 _RockTunnelB1FCooltrainerF2BattleText::
@@ -93,7 +93,7 @@ _RockTunnelB1FCooltrainerF2EndBattleText::
 
 _RockTunnelB1FCooltrainerF2AfterBattleText::
 	text "I like tiny"
-	line "#MON, big ones"
+	line "#MON. Big ones"
 	cont "are too scary!"
 	done
 

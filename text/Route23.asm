@@ -31,7 +31,7 @@ _Route23OhThatIsTheBadgeText::
 _Route23GoRightAheadText::
 	text_start
 
-	para "OK then! Please,"
+	para "Okay then! Please,"
 	line "go right ahead!"
 	done
 

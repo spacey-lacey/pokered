@@ -6,7 +6,7 @@ _VermilionGymLTSurgePostBattleAdviceText::
 	line "sure powerful!"
 
 	para "But it's useless"
-	line "against ground-"
+	line "against GROUND"
 	cont "type #MON!"
 	done
 
@@ -16,8 +16,8 @@ _VermilionGymLTSurgeThunderBadgeInfoText::
 	cont "#MON's SPEED!"
 
 	para "It also lets your"
-	line "#MON FLY any"
-	cont "time, kid!"
+	line "#MON FLY"
+	cont "anytime, kid!"
 
 	para "You're special,"
 	line "kid! Take this!"
@@ -37,11 +37,11 @@ _TM24ExplanationText::
 	line "THUNDERBOLT!"
 
 	para "Teach it to an"
-	line "electric #MON!"
+	line "ELECTRIC #MON!"
 	done
 
 _VermilionGymLTSurgeTM24NoRoomText::
-	text "Yo kid, make room"
+	text "Yo, kid, make room"
 	line "in your pack!"
 	done
 
@@ -108,9 +108,9 @@ _VermilionGymSailorAfterBattleText::
 	cont "Here's a hint!"
 
 	para "When you open the"
-	line "1st lock, the 2nd"
-	cont "lock is right"
-	cont "next to it!"
+	line "first lock, the"
+	cont "second lock is"
+	cont "right next to it!"
 	done
 
 _VermilionGymGymGuideChampInMakingText::
@@ -124,12 +124,12 @@ _VermilionGymGymGuideChampInMakingText::
 	cont "American!"
 
 	para "He's an expert on"
-	line "electric #MON!"
+	line "ELECTRIC #MON!"
 
-	para "Birds and water"
+	para "FLYING and WATER"
 	line "#MON are at"
 	cont "risk! Beware of"
-	cont "paralysis too!"
+	cont "paralysis, too!"
 
 	para "LT.SURGE is very"
 	line "cautious!"

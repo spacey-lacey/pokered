@@ -3,13 +3,13 @@ _ViridianForestYoungster1Text::
 	line "some friends!"
 
 	para "They're out for"
-	line "#MON fights!"
+	line "#MON battles!"
 	done
 
 _ViridianForestYoungster2BattleText::
 	text "Hey! You have"
 	line "#MON! Come on!"
-	cont "Let's battle'em!"
+	cont "Let's battle 'em!"
 	done
 
 _ViridianForestYoungster2EndBattleText::

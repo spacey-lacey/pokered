@@ -9,7 +9,7 @@ _LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText::
 	para "That poor CUBONE's"
 	line "mother<...>"
 
-	para "It was killed"
+	para "She was killed"
 	line "trying to escape"
 	cont "from TEAM ROCKET!"
 	done

@@ -128,13 +128,13 @@ _ItemfinderFoundNothingText::
 	prompt
 
 _RaisePPWhichTechniqueText::
-	text "Raise PP of which"
-	line "technique?"
+	text "Raise which"
+	line "move's PP?"
 	done
 
 _RestorePPWhichTechniqueText::
-	text "Restore PP of"
-	line "which technique?"
+	text "Restore which"
+	line "move's PP"
 	done
 
 _PPMaxedOutText::
@@ -190,7 +190,7 @@ _MonCannotLearnMachineMoveText::
 _ItemUseNotTimeText::
 	text "OAK: <PLAYER>!"
 	line "This isn't the"
-	cont "time to use that! "
+	cont "time to use that!"
 	prompt
 
 _ItemUseNotYoursToUseText::
@@ -225,7 +225,7 @@ _NoSurfingHereText::
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
-	line "is full! Can't"
-	cont "use that item!"
+	text "Can't use that!"
+	line "The #MON BOX"
+	cont "is full!"
 	prompt

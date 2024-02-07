@@ -58,7 +58,7 @@ _Route6CooltrainerM2AfterBattleText::
 	done
 
 _Route6CooltrainerF2BattleText::
-	text "Me? Well, OK."
+	text "Me? Well, okay."
 	line "I'll play!"
 	done
 
@@ -86,7 +86,7 @@ _Route6Youngster2EndBattleText::
 
 _Route6Youngster2AfterBattleText::
 	text "Are my #MON"
-	line "weak? Or, am I"
+	line "weak? Or am I"
 	cont "just bad?"
 	done
 

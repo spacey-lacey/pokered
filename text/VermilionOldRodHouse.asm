@@ -2,7 +2,7 @@ _VermilionOldRodHouseFishingGuruDoYouLikeToFishText::
 	text "I'm the FISHING"
 	line "GURU!"
 
-	para "I simply Looove"
+	para "I simply looove"
 	line "fishing!"
 
 	para "Do you like to"
@@ -48,7 +48,7 @@ _VermilionOldRodHouseFishingGuruHowAreTheFishBitingText::
 	done
 
 _VermilionOldRodHouseFishingGuruNoRoomText::
-	text "Oh no!"
+	text "Oh, no!"
 
 	para "You have no room"
 	line "for my gift!"

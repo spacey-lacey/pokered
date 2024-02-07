@@ -1,7 +1,7 @@
 _BillsHouseBillImNotAPokemonText::
 	text "Hiya! I'm a"
 	line "#MON<...>"
-	cont "<...>No I'm not!"
+	cont "<l...>No I'm not!"
 
 	para "Call me BILL!"
 	line "I'm a true blue"
@@ -28,7 +28,7 @@ _BillsHouseBillUseSeparationSystemText::
 	done
 
 _BillsHouseBillNoYouGottaHelpText::
-	text "No!? Come on, you"
+	text "No?! Come on, you"
 	line "gotta help a guy"
 	cont "in deep trouble!"
 

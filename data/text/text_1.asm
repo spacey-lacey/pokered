@@ -74,7 +74,7 @@ _OaksAideHiText::
 	line "I'm PROF.OAK's"
 	cont "AIDE!"
 
-	para "If you caught @"
+	para "If you've caught @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
 	line "kinds of #MON,"
@@ -94,7 +94,7 @@ _OaksAideHiText::
 
 _OaksAideUhOhText::
 	text "Let's see<...>"
-	line "Uh-oh! You have"
+	line "Uh-oh! You've"
 	cont "caught only @"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
 	text_start
@@ -122,7 +122,7 @@ _OaksAideComeBackText::
 	done
 
 _OaksAideHereYouGoText::
-	text "Great! You have"
+	text "Great! You've"
 	line "caught @"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
 	text " kinds "

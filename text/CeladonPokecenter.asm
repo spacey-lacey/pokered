@@ -1,7 +1,7 @@
 _CeladonPokecenterGentlemanText::
-	text "# FLUTE awakens"
-	line "#MON with a"
-	cont "sound that only"
+	text "A # FLUTE"
+	line "awakens #MON"
+	cont "with a sound only"
 	cont "they can hear!"
 	done
 

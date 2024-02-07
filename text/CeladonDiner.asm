@@ -37,8 +37,8 @@ _CeladonDinerGymGuideImFlatOutBustedText::
 	cont "straight!"
 
 	para "Here! I won't be"
-	line "needing this any-"
-	cont "more!"
+	line "needing this"
+	cont "anymore!"
 	prompt
 
 _CeladonDinerGymGuideReceivedCoinCaseText::

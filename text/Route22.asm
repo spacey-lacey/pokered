@@ -9,7 +9,7 @@ _Route22RivalBeforeBattleText1::
 	line "probably don't"
 	cont "have any BADGEs!"
 
-	para "The guard won't"
+	para "The guards won't"
 	line "let you through!"
 
 	para "By the way, did"
@@ -18,7 +18,7 @@ _Route22RivalBeforeBattleText1::
 	done
 
 _Route22RivalAfterBattleText1::
-	text "I heard the #MON"
+	text "I hear the #MON"
 	line "LEAGUE has many"
 	cont "tough trainers!"
 
@@ -39,7 +39,7 @@ _Route22Rival1DefeatedText::
 
 _Route22Rival1VictoryText::
 	text "<RIVAL>: What?"
-	line "Why do I have 2"
+	line "Why do I have two"
 	cont "#MON?"
 
 	para "You should catch"
@@ -81,7 +81,7 @@ _Route22RivalAfterBattleText2::
 	done
 
 _Route22Rival2DefeatedText::
-	text "What!?"
+	text "What?!"
 
 	para "I was just"
 	line "careless!"

@@ -26,16 +26,13 @@ _TM34ExplanationText::
 	text_start
 
 	para "A TM contains a"
-	line "technique that"
-	cont "can be taught to"
-	cont "#MON!"
+	line "move that can be"
+	cont "taught to #MON!"
 
 	para "A TM is good only"
 	line "once! So when you"
-	cont "use one to teach"
-	cont "a new technique,"
-	cont "pick the #MON"
-	cont "carefully!"
+	cont "use one, pick the"
+	cont "#MON carefully!"
 
 	para "TM34 contains"
 	line "BIDE!"
@@ -83,9 +80,9 @@ _PewterGymCooltrainerMBattleText::
 	text "Stop right there,"
 	line "kid!"
 
-	para "You're still light-"
-	line "years from facing"
-	cont "BROCK!"
+	para "You're still"
+	line "lightyears from"
+	cont "facing BROCK!"
 	done
 
 _PewterGymCooltrainerMEndBattleText::
@@ -122,15 +119,16 @@ _PewterGymGuideBeginAdviceText::
 	prompt
 
 _PewterGymGuideAdviceText::
-	text "The 1st #MON"
+	text "The first #MON"
 	line "out in a match is"
-	cont "at the top of the"
-	cont "#MON LIST!"
+	cont "the one at the"
+	cont "top of the list!"
 
 	para "By changing the"
-	line "order of #MON,"
-	cont "matches could be"
-	cont "made easier!"
+	line "order of your"
+    cont "#MON, you can"
+	cont "put yourself at"
+	cont "an advantage!"
 	done
 
 _PewterGymGuideFreeServiceText::

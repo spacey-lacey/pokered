@@ -57,14 +57,15 @@ _MtMoonB2FSuperNerdThenThisIsMineText::
 
 _MtMoonB2FRocket1BattleText::
 	text "TEAM ROCKET will"
-	line "find the fossils,"
-	cont "revive and sell"
-	cont "them for cash!"
+	line "find the #MON"
+	cont "fossils, revive"
+	cont "them, and sell"
+    cont "them for cash!"
 	done
 
 _MtMoonB2FRocket1EndBattleText::
-	text "Urgh!"
-	line "Now I'm mad!"
+	text " "
+	line "Urgh! Now I'm mad!"
 	prompt
 
 _MtMoonB2FRocket1AfterBattleText::
@@ -80,8 +81,8 @@ _MtMoonB2FRocket2BattleText::
 	done
 
 _MtMoonB2FRocket2EndBattleText::
-	text "I blew"
-	line "it!"
+	text "I"
+	line "blew it!"
 	prompt
 
 _MtMoonB2FRocket2AfterBattleText::
@@ -97,8 +98,8 @@ _MtMoonB2FRocket3BattleText::
 	done
 
 _MtMoonB2FRocket3EndBattleText::
-	text "So, you"
-	line "are good."
+	text "So,"
+	line "you are good."
 	prompt
 
 _MtMoonB2FRocket3AfterBattleText::

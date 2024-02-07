@@ -32,7 +32,7 @@ _PokemartTellBuyPriceText::
 	line "That will be"
 	cont "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text ". OK?"
+	text ". Okay?"
 	done
 
 _PokemartBoughtItemText::
@@ -122,7 +122,7 @@ _TryingToLearnText::
 	text_ram wLearnMoveMonName
 	text_start
 	line "can't learn more"
-	cont "than 4 moves!"
+	cont "than four moves!"
 
 	para "Delete an older"
 	line "move to make room"
@@ -132,7 +132,7 @@ _TryingToLearnText::
 	done
 
 _OneTwoAndText::
-	text "1, 2 and<...>@"
+	text "1, 2, and<...>@"
 	text_end
 
 _PoofText::
@@ -171,7 +171,7 @@ _ShallWeHealYourPokemonText::
 	done
 
 _NeedYourPokemonText::
-	text "OK. We'll need"
+	text "Okay. We'll need"
 	line "your #MON."
 	done
 
@@ -188,7 +188,7 @@ _PokemonCenterFarewellText::
 
 _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
 	text "This area is"
-	line "reserved for 2"
+	line "reserved for two"
 	cont "friends who are"
 	cont "linked by cable."
 	done

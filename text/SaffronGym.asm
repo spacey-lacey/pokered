@@ -10,10 +10,11 @@ _SaffronGymSabrinaText::
 	line "to bend spoons"
 	cont "with my mind."
 
-	para "I dislike fight-"
-	line "ing, but if you"
-	cont "wish, I will show"
-	cont "you my powers!"
+	para "I dislike"
+	line "fighting, but if"
+	cont "you wish, I will"
+	cont "show you my"
+    cont "powers!"
 	done
 
 _SaffronGymSabrinaReceivedMarshBadgeText::

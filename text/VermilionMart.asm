@@ -5,14 +5,13 @@ _VermilionMartCooltrainerMText::
 	cont "criminal acts."
 
 	para "TEAM ROCKET"
-	line "traffics in rare"
-	cont "#MON."
+	line "trafficks in"
+	cont "rare #MON."
 
 	para "They also abandon"
 	line "#MON that they"
-	cont "consider not to"
-	cont "be popular or"
-	cont "useful."
+	cont "consider not"
+	cont "popular or useful."
 	done
 
 _VermilionMartCooltrainerFText::
