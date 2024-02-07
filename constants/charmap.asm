@@ -169,9 +169,9 @@
 	charmap "!",         $e7
 	charmap ".",         $e8
 
-	charmap "<...>",      $e9 ; ellipsis
-	charmap "ゥ",         $ea ; katakana small u, unused
-	charmap "ェ",         $eb ; katakana small e, unused
+	charmap "<l...>",    $e9 ; leading ellipsis
+	charmap "<...>",     $ea ; trailing ellipsis
+	charmap "'e",        $eb
 
 	charmap "▷",         $ec
 	charmap "▶",         $ed
