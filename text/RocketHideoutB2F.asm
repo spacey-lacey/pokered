@@ -11,7 +11,8 @@ _RocketHideoutB1FRocketEndBattleText::
 
 _RocketHideoutB1FRocketAfterBattleText::
 	text "The TEAM ROCKET"
-	line "HQ has 4 basement"
-	cont "floors. Can you"
-	cont "reach the BOSS?"
+	line "HQ has four"
+	cont "basement floors."
+	cont "Can you reach"
+    cont "the BOSS?"
 	done

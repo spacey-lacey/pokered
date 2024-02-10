@@ -20,8 +20,9 @@ _PokemonTower7FMrFujiRescueText::
 
 	para "Follow me to my"
 	line "home, #MON"
-	cont "HOUSE at the foot"
-	cont "of this tower."
+	cont "HOUSE, at the"
+	cont "foot of this"
+    cont "tower."
 	done
 
 _PokemonTower7FRocket1BattleText::
@@ -30,7 +31,8 @@ _PokemonTower7FRocket1BattleText::
 	done
 
 _PokemonTower7FRocket1EndBattleText::
-	text "I give up!"
+	text "I"
+    line "give up!"
 	prompt
 
 _PokemonTower7FRocket1AfterBattleText::
@@ -49,8 +51,8 @@ _PokemonTower7FRocket2BattleText::
 	done
 
 _PokemonTower7FRocket2EndBattleText::
-	text "Please!"
-	line "No more!"
+    text " "
+	line "Please! No more!"
 	prompt
 
 _PokemonTower7FRocket2AfterBattleText::

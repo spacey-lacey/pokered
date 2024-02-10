@@ -33,8 +33,8 @@ _RocketHideoutB4FGiovanniBattleText::
 	done
 
 _RocketHideoutB4FGiovanniEndBattleText::
-	text "Burned"
-	line "again!"
+	text " "
+	line "Burned again!"
 	prompt
 
 _RocketHideoutB4FGiovanniAfterBattleText::
@@ -50,7 +50,7 @@ _RocketHideoutB4FRocket1BattleText::
 	done
 
 _RocketHideoutB4FRocket1EndBattleText::
-	text "Ayaya!"
+	line "Ayaya!"
 	prompt
 
 _RocketHideoutB4FRocket1AfterBattleText::

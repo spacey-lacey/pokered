@@ -103,7 +103,7 @@ _CeladonMartRoofSuperNerdText::
 	cont "it or not."
 
 	para "But she's so"
-	line "immature, she"
+	line "immature. She"
 	cont "drives me nuts!"
 	done
 

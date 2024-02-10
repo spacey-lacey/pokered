@@ -13,7 +13,7 @@ _PokemonTower6FSoulWasCalmedText::
 	done
 
 _PokemonTower6FChanneler1BattleText::
-	text "Give<...>me<...>"
+	text "Give<...> me<...>"
 	line "blood<...>"
 	done
 
@@ -27,7 +27,8 @@ _PokemonTower6FChanneler1AfterBattleText::
 	done
 
 _PokemonTower6FChanneler2BattleText::
-	text "Urff<...> Kwaah!"
+	text "Urff<...>"
+    line "Kwaah!"
 	done
 
 _PokemonTower6FChanneler2EndBattleText::
@@ -43,8 +44,8 @@ _PokemonTower6FChanneler2AfterBattleText::
 	done
 
 _PokemonTower6FChanneler3BattleText::
-	text "Ke..ke<...>ke<...>"
-	line "ke..ke<...>ke!!"
+	text "Ke<...>ke<...>ke<...>"
+	line "ke<...>ke<...>ke!!"
 	done
 
 _PokemonTower6FChanneler3EndBattleText::

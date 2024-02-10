@@ -20,8 +20,8 @@ _OaksLabRivalMyPokemonLooksStrongerText::
 	done
 
 _OaksLabThoseArePokeBallsText::
-	text "Those are #"
-	line "BALLs. They"
+	text "Those are"
+	line "#BALLs. They"
 	cont "contain #MON!"
 	done
 
@@ -106,7 +106,7 @@ _OaksLabOak1DeliverParcelText::
 _OaksLabOak1ParcelThanksText::
 	text_start
 	para "Ah! This is the"
-	line "custom # BALL"
+	line "custom #BALL"
 	cont "I ordered!"
 	cont "Thank you!"
 	done
@@ -129,7 +129,7 @@ _OaksLabOak1ReceivedPokeballsText::
 	cont "#MON."
 
 	para "<PLAYER> got 5"
-	line "# BALLs!@"
+	line "#BALLs!@"
 	text_end
 
 _OaksLabGivePokeballsExplanationText::
@@ -138,9 +138,9 @@ _OaksLabGivePokeballsExplanationText::
 	line "#MON appears,"
 	cont "it's fair game."
 
-	para "Just throw a #"
-	line "BALL at it and try"
-	line "to catch it!"
+	para "Just throw a"
+	line "#BALL at it and"
+	line "try to catch it!"
 
 	para "This won't always"
 	line "work, though."
@@ -209,7 +209,7 @@ _OaksLabOakChooseMonText::
 	para "Haha!"
 
 	para "They are inside"
-	line "the # BALLs."
+	line "the #BALLs."
 
 	para "When I was young,"
 	line "I was a serious"

@@ -1,7 +1,7 @@
 _CeladonMart1FReceptionistText::
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE."
+	text "Hello! Welcome"
+	line "to CELADON"
+    cont "DEPTARTMENT STORE."
 
 	para "The board on the"
 	line "right describes"

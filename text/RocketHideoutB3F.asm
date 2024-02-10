@@ -23,8 +23,8 @@ _RocketHideout3BattleTxt::
 	done
 
 _RocketHideout3EndBattleText3::
-	text "What?"
-	line "I lost? No!"
+	text ""
+	line "What? I lost? No!"
 	prompt
 
 _RocketHide3AfterBattleText3::

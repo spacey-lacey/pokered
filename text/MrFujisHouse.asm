@@ -57,10 +57,11 @@ _MrFujisHouseMrFujiReceivedPokeFluteText::
 _MrFujisHouseMrFujiPokeFluteExplanationText::
 	text_start
 
-	para "Upon hearing #"
-	line "FLUTE, sleeping"
-	cont "#MON will"
-	cont "spring awake."
+	para "Upon hearing a"
+	line "#FLUTE,"
+	cont "sleeping #MON"
+	cont "will spring"
+    cont "awake."
 
 	para "It works on all"
 	line "sleeping #MON."

@@ -72,7 +72,7 @@ _FuchsiaCityVoltorbSignText::
 	text "Name: VOLTORB"
 
 	para "The very image of"
-	line "a # BALL."
+	line "a #BALL."
 	prompt
 
 _FuchsiaCityKangaskhanSignText::

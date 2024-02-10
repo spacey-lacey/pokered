@@ -98,9 +98,9 @@ _CeladonCityTrainerTips1Text::
 	line "the likelihood of"
 	cont "critical hits!"
 
-	para "Get your items at"
-	line "CELADON DEPT."
-	cont "STORE!"
+	para "Get your items"
+	line "at CELADON"
+	cont "DEPARTMENT STORE!"
 	done
 
 _CeladonCitySignText::
@@ -151,5 +151,5 @@ _CeladonCityPrizeExchangeSignText::
 _CeladonCityGameCornerSignText::
 	text "ROCKET GAME CORNER"
 	line "The playground"
-	cont "for grown-ups!"
+	cont "for grownups!"
 	done

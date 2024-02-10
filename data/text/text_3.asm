@@ -218,7 +218,8 @@ _IsUnaffectedText::
 _ParalyzedMayNotAttackText::
 	text "<TARGET>'s"
 	line "paralyzed! It"
-	cont "might not attack!"
+	cont "may not be able"
+    cont "to attack!"
 	prompt
 
 _SubstituteText::

@@ -29,10 +29,10 @@ _CeladonMart3FClerkTM18NoRoomText::
 _CeladonMart3FGameBoyKid1Text::
 	text "Captured #MON"
 	line "are registered"
-	cont "with an ID No."
+	cont "with an ID number"
 	cont "and OT, the name"
-	cont "of the Original"
-	cont "Trainer that"
+	cont "of the original"
+	cont "trainer that"
 	cont "caught it!"
 	done
 
@@ -62,7 +62,7 @@ _CeladonMart3FLittleBoyText::
 	text "You can identify"
 	line "#MON you got"
 	cont "in trades by"
-	cont "their ID Numbers!"
+	cont "their ID numbers!"
 	done
 
 _CeladonMart3FSNESText::

@@ -500,7 +500,7 @@ _ViridianSchoolNotebookText1::
 
 	para "First page<...>"
 
-	para "# BALLs are"
+	para "#BALLs are"
 	line "used to catch"
 	cont "#MON."
 
@@ -725,7 +725,7 @@ _VermilionGymTrashSuccessText1::
 	cont "trash!"
 	cont "Turn it on!"
 
-	para "The 1st electric"
+	para "The first electric"
 	line "lock opened!@"
 	text_end
 
@@ -737,8 +737,9 @@ _VermilionGymTrashSuccessText2::
 	prompt
 
 _VermilionGymTrashSuccessText3::
-	text "The 2nd electric"
-	line "lock opened!"
+	text "The second"
+	line "electric lock"
+    cont "opened!"
 
 	para "The motorized door"
 	line "opened!@"
