@@ -649,9 +649,8 @@ ItemUseBicycle:
 	call ItemUseReloadOverworldData
 	xor a
 	ld [wWalkBikeSurfState], a ; change player state to walking
-;call PlayDefaultMusic ; play walking music
-	ld hl, GotOffBicycleText
-	jr .printText
+    ld hl, GotOffBicycleText
+    jr .printText
 .tryToGetOnBike
 	call IsBikeRidingAllowed
 	jp nc, NoCyclingAllowedHere
@@ -660,10 +659,9 @@ ItemUseBicycle:
 	ldh [hJoyHeld], a ; current joypad state
 	inc a
 	ld [wWalkBikeSurfState], a ; change player state to bicycling
-	ld hl, GotOnBicycleText
-;call PlayDefaultMusic ; play bike riding music
+    ld hl, GotOnBicycleText
 .printText
-	jp PrintText
+    jp PrintText
 
 ; indirectly used by SURF in StartMenu_Pokemon.surf
 ItemUseSurfboard:
